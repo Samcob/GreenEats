@@ -2,7 +2,7 @@
   "name": "greeneats-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Samob.github.io/GreenEats",
+  "homepage": "https://samcob.github.io/GreenEats/",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "bootstrap": "^4.3.1",
