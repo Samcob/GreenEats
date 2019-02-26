@@ -20,21 +20,26 @@ class Home extends Component {
                 </header>
 
                 <div class="imgbox">
-                    {/* <div class="searchbar">Search for food</div> */}
+                    <div class="searchSection">
+
+                        <p class="landingSearch"> Search for food or paste recipe link</p>
+
+                    </div>
                 </div>
 
 
+                {/* ********************  EVENTUALLY WE NEED TO PUT THIS INTO ITS OWN COMPONENT ************************ */}
 
-
-                <nav class="navbar">
+                <nav class="navBar">
                     <a href="issues.html"> <img src="./Images/issuesLogo.png" alt="issues" height="45px" /></a>
                     <a href="ecotips.html"><img src="./Images/ecoTipsLogo.png" alt="Eco Tips" height="45px" /></a>
                     <a href="search.html"><img src="./Images/searchLogo.png" alt="Search" height="45px" /></a>
                     <a href="ecoscore.html"><img src="./Images/ecoScoreLogo.png" alt="Eco Score" height="45px" /></a>
                 </nav>
 
+                {/* ********************  EVENTUALLY WE NEED TO PUT THIS INTO ITS OWN COMPONENT ************************ */}
 
-                <h2> Our picks of the day</h2>
+                <h2 class="ourPicks"> Our picks of the day</h2>
 
                 <Container>
                     <Row>

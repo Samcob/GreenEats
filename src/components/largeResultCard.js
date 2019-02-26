@@ -1,0 +1,1 @@
+// Large Result Card Component
