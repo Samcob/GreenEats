@@ -1,0 +1,65 @@
+.App-header {
+    background-color:#2D8B50;
+    overflow: hidden;
+    min-height: 0px;
+    width:100%;
+    position: absolute;
+  }
+  
+  .App-header img{
+  margin-left:8px;
+  
+  }
+  
+  .App-header img:hover{
+    background-color: #14542C;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+  }
+  
+  .yellow{
+    background-color: yellow;
+    border: #14542C;
+  }
+  
+  
+  .fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    transform: rotate(180deg);
+  }
+  
+  .imgbox{ 
+    border-style: solid;
+    background-image: url("./Images/PhotoBackgroundVertical.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100vh; 
+    position: absolute;
+  }
+  
+  @media (min-width: 500px) {
+    .imgbox{
+      background-image: url("./Images/PhotoBackgroundHorizontal.jpg");
+      background-position: center center;
+      height: 500px;
+    }
+  }
+  
+  .searchbar {
+    border-style: solid;
+    height: 100px;
+  }
+  
+  .footer{
+    height: 100px;
+  
+  }
