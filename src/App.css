@@ -20,7 +20,6 @@ margin-left:8px;
   width: 100%;
 }
 
-
 .fit {
   max-width: 100%;
   max-height: 100vh;
@@ -36,4 +35,30 @@ margin-left:8px;
 .footer{
   height: 100px;
 
+}
+
+.navbar{
+  background-Color:#2D8B50;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  /* padding: 14px 16px; */
+  font-size: 12;
+  text-decoration:none;
+}
+
+.navbar a:hover{
+  background-color: #14542C;
+}
+
+.navbar a.active {
+  background-color: #ffffff;
 }
