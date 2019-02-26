@@ -21,14 +21,14 @@ const styles = {
     marginLeft: 8,
     flex: 1,
   },
-  searchBar: {
-    width: "auto",
-  },
   iconButton: {
     padding: 10,
   },
-  wrapper: {
-    color: "#2D8B50",
+  navBar: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center'
   },
 }
 
@@ -51,20 +51,35 @@ class App extends Component {
           <a href="homepage.html"><img src="./Images/headerLogo.png" alt="Green Eats" height="45px"></img></a>
         </header>
 
-        <Paper className={classes.searchBar} elevation={1}>
+
+        {/* <div class="imgbox">
+          <img class="fit" src="./Images/PhotoBackground.jpg" alt="Background"></img>
+        </div>
+
+        <h2> Our picks of the day</h2>
+
+        <h3> Breakfast </h3>
+        <div class='card'></div>
+        <h3> Lunch </h3>
+        <div class='card'></div>
+        <h3> Dinner </h3>
+        <div class='card'></div>
+        <div class="footer"></div> */}
+
+        <Paper className={classes.searchBar}>
           <InputBase className={classes.input} placeholder="Search for a recipe " />
           {/* <IconButton className={classes.iconButton} aria-label="Search">
             <SearchIcon />
           </IconButton> */}
         </Paper>
 
-        <BottomNavigation className="bottom-nav">
+        <BottomNavigation className="bottom-nav" color="green">
           value={value}
           onChange={this.handleChange}
-          showLabels
-          className={classes.root}
+          showLabels = {true}
+          className={classes.navBar}
           >
-          <BottomNavigationAction label="Issues" value="issues" icon={"./Images / ecoTipsIcon.png"} />
+          <BottomNavigationAction label="Issues" value="issues" icon={<img src='/public/Images/issuesIcon.png' alt="issues"></img>} />
           <BottomNavigationAction label="EcoTips" value="ecotips" icon={"./Images/ecoTipsIcon.png"} />
           <BottomNavigationAction label="Search" value="search" icon={"./Images/searchIcon.png"} />
           <BottomNavigationAction label="EcoScore" value="ecoscore" icon={"./Images/ecoScoreIcon.png"} />
