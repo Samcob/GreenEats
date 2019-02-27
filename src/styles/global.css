@@ -31,39 +31,71 @@
   .yellow {
     background-color: yellow;
   }
-  
-  
-  .fit {
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
-    transform: rotate(180deg);
-  }
+
   
   .imgbox{ 
     background-image: url("./Images/PhotoBackgroundVertical.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-content: center;
     justify-content: center;
   }
 
 
-  .searchSection {
-      border-style: solid;
-      height: 200px;
-      border-color: red;
-      margin-left: 20px;
-      margin-right: 20px;
-      margin-top: 100px;
+  .landingSearch {
+    color: white;
+    font-size: 15pt;
   }
 
-  .landingSearch {
-      color:white;
+  .slogan {
+    color: white;
+  }
+
+  .type{
+    width: 100%;
+    border-radius: 15px;
+    height: 45px;
+    border-style: none;
+    top: 0px;
+    padding-left: 20px;
+    outline: none;
+    
+  }
+
+  .submit{
+    width: 45px;
+    height: 45px;
+    border-style: none;
+    border-radius: 15px;
+  }
+
+  
+  .searchSection {
+      /* border-style: solid; */
+      height: auto;
+      /* border-color: red; */
+      margin-left: 40px;
+      margin-right: 40px;
+      align-self: center;
+      width: 100%;
+      margin-top: 200px;
+  }
+
+  .searchBar{
+      /* border-style: solid; */
+      height: auto;
+      /* border-color: red; */
+      display: flex;
+      background-color: white;
+      border-radius: 15px;
+    
+}
+
+  .slogan{
+    margin-top: 20px;
+    font-size: 16pt;
   }
 
 
@@ -72,12 +104,15 @@
       margin-left: 8px;
   }
 
-  
+
   @media (min-width: 500px) {
     .imgbox{
       background-image: url("./Images/PhotoBackgroundHorizontal.jpg");
       background-position: center center;
       height: 500px;
+      margin-right: none;
+      flex-direction: column;
+      justify-content: center;
     }
 
     /* needs to be its own component */
@@ -90,6 +125,19 @@
         height: 45px;
         position: absolute;
       }
+
+    .searchSection{
+      width: 50%;
+      align-self: flex-start;
+      margin-top: 50px;
+    }
+  }
+
+  @media (min-width: 361px) {
+    .slogan{
+      margin-top: 20px;
+      font-size: 20pt;
+    }
   }
 
      /* needs to be its own component */

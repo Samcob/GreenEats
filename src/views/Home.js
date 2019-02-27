@@ -19,10 +19,19 @@ class Home extends Component {
                     <a href="homepage.html"><img src="./Images/headerLogo.png" alt="Green Eats" height="45px"></img></a>
                 </header>
 
-                <div class="imgbox">
+                <div class="imgbox" title="Cover Photo of Veggie Omelette">
                     <div class="searchSection">
 
                         <p class="landingSearch"> Search for food or paste recipe link</p>
+                        <form>
+                            <div class="searchBar">
+
+                                <input class="submit" type="image" src="./Images/Slice.png" alt="Search" />
+                                <input class="type" type="text" name="name" />
+                            </div>
+
+                        </form>
+                        <p class="slogan"> Sustainable eating made easy. Evaluate your meal's ecological impact.</p>
 
                     </div>
                 </div>
