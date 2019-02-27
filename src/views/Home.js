@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-//import PropTypes from 'prop-types';
-// import { withStyles } from '@material-ui/core/styles';
-import '../styles/global.css';
+
+import LargeResultCard from "../components/LargeResultCard";
+import BottomNavbar from "../components/BottomNavbar";
+import TopHeader from "../components/TopHeader";
+
+//import '../styles/global.css';
+import "../styles/home.css"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-// const styles = {
-// }
 
 class Home extends Component {
     render() {
@@ -15,51 +17,49 @@ class Home extends Component {
         // const { value } = this.state;
         return (
             <div className="App">
-                <header className="App-header">
-                    <a href="homepage.html"><img src="./Images/headerLogo.png" alt="Green Eats" height="45px"></img></a>
-                </header>
+
+                <TopHeader />
 
                 <div class="imgbox" title="Cover Photo of Veggie Omelette">
                     <div class="searchSection">
-
                         <p class="landingSearch"> Search for food or paste recipe link</p>
                         <form>
+
                             <div class="searchBar">
 
-                                <input class="submit" type="image" src="./Images/Slice.png" alt="Search" />
+                                <input class="submit" type="image" src="./Images/greySearch.png" alt="Search" />
                                 <input class="type" type="text" name="name" />
+
                             </div>
 
                         </form>
+
                         <p class="slogan"> Sustainable eating made easy. Evaluate your meal's ecological impact.</p>
 
                     </div>
+
                 </div>
 
+                <BottomNavbar />
 
-                {/* ********************  EVENTUALLY WE NEED TO PUT THIS INTO ITS OWN COMPONENT ************************ */}
 
-                <nav class="navBar">
-                    <a href="issues.html"> <img src="./Images/issuesLogo.png" alt="issues" height="45px" /></a>
-                    <a href="ecotips.html"><img src="./Images/ecoTipsLogo.png" alt="Eco Tips" height="45px" /></a>
-                    <a href="search.html"><img src="./Images/searchLogo.png" alt="Search" height="45px" /></a>
-                    <a href="ecoscore.html"><img src="./Images/ecoScoreLogo.png" alt="Eco Score" height="45px" /></a>
-                </nav>
+                {/*Page Content*/}
 
-                {/* ********************  EVENTUALLY WE NEED TO PUT THIS INTO ITS OWN COMPONENT ************************ */}
-
-                <h2 class="ourPicks"> Our picks of the day</h2>
+                <h2 class="ourPicks pl-1 mb-5"> Our picks of the day</h2>
 
                 <Container>
                     <Row>
-                        <Col className="yellow">
-                            Breakfast
+                        <Col className="columns" sm={12} md={6} lg={4}>
+                            <h5 class="pickTitles">Breakfast</h5>
+                            <LargeResultCard />
                         </Col>
-                        <Col>
-                            Lunch
-                         </Col>
-                        <Col>
-                            Dinner
+                        <Col className="columns" sm={12} md={6} lg={4}>
+                            <h5 class="pickTitles">Lunch</h5>
+                            <LargeResultCard />
+                        </Col>
+                        <Col className="columns" sm={12} md={6} lg={4}>
+                            <h5 class="pickTitles">Dinner</h5>
+                            <LargeResultCard />
                         </Col>
                     </Row>
                 </Container>
