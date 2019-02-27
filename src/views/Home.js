@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import LargeResultCard from "../components/LargeResultCard";
-import BottomNavbar from "../components/BottomNavbar";
+import LargeResultCard from "../components/largeResultCard";
+import BottomNavbar from "../components/bottomNavbar";
 import TopHeader from "../components/TopHeader";
 
 //import '../styles/global.css';
