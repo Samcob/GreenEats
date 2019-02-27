@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Home from './views/Home';
 
-
 import './App.css';
 import './styles/global.css';
 
@@ -13,7 +12,10 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Home />
+
+        <div className="App">
+          <Home />
+        </div>
       </div>
 
     );

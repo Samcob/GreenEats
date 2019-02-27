@@ -1,0 +1,11 @@
+.cardImage {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.stats{
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.App-header {
+    background-color:#2D8B50;
+    overflow: hidden;
+    min-height: 0px;
+    width:100%;
+    position: absolute;
+  }
+  
+  .App-header img{
+  margin-left:8px;
+  
+  }
