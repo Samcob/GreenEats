@@ -20,7 +20,7 @@ class LargeResultCard extends Component {
                     </Card.Subtitle>
                     <Card.Body>
                         <Card.Text>
-                            This is where the text will go that describes each recipe.  Above will be the price, time, and ecoscore associated with each recipe.
+                            This is where the text will go that describes each recipe.
                         </Card.Text>
                     </Card.Body>
                     <Card.Img className="cardImage" variant="bottom" src="./Images/PhotoBackgroundHorizontal.jpg" />
