@@ -13,14 +13,14 @@ class LargeResultCard extends Component {
                     <Card.Title className="p-2">
                         Recipe
                     </Card.Title>
-                    <Card.Subtitle className="stats">
-                        <div class="ecoScore"><strong>EcoScore:</strong></div>
-                        <div class="price"><strong>Price:</strong></div>
-                        <div class="time"><strong>Time:</strong></div>
+                    <Card.Subtitle className="stats mb-4">
+                        <div class="ecoScore"><strong>EcoScore:</strong> 51g CO2</div>
+                        <div class="price"><strong>Price:</strong> $$</div>
+                        <div class="time"><strong>Time:</strong> 32 mins</div>
                     </Card.Subtitle>
                     <Card.Body>
                         <Card.Text>
-                            This is where the text will go that describes each recipe.  Above will be the price, time, and ecoscore associated with each recipe.
+                            This is where the text will go that describes each recipe.
                         </Card.Text>
                     </Card.Body>
                     <Card.Img className="cardImage" variant="bottom" src="./Images/PhotoBackgroundHorizontal.jpg" />
