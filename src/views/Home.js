@@ -45,7 +45,7 @@ class Home extends Component {
 
                 {/*Page Content*/}
 
-                <h2 class="ourPicks pl-1 mb-5"> Our picks of the day</h2>
+                <h2 class="ourPicks pl-1 mb-5"> Our Favorite Picks For Today!</h2>
 
                 <Container>
                     <Row>
