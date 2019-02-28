@@ -14,9 +14,9 @@ class LargeResultCard extends Component {
                         Recipe
                     </Card.Title>
                     <Card.Subtitle className="stats">
-                        <div class="ecoScore"><strong>EcoScore:</strong></div>
-                        <div class="price"><strong>Price:</strong></div>
-                        <div class="time"><strong>Time:</strong></div>
+                        <div class="ecoScore"><strong>EcoScore:</strong> 51g CO2</div>
+                        <div class="price"><strong>Price:</strong> $$</div>
+                        <div class="time"><strong>Time:</strong> 32 mins</div>
                     </Card.Subtitle>
                     <Card.Body>
                         <Card.Text>
