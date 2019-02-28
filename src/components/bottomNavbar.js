@@ -1,5 +1,6 @@
 // Bottom Navigation Bar Component
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import issuesIcon from "../styles/Images/issuesIcon.png";
 import ecoTipsIcon from "../styles/Images/ecoTipsIcon.png";
@@ -13,10 +14,22 @@ class BottomNavbar extends Component {
     render() {
         return (
             <nav class="navBar">
-                <a href="issues.html"> <img src={issuesIcon} alt="issues" height="45px" /></a>
-                <a href="ecotips.html"><img src={ecoTipsIcon} alt="Eco Tips" height="45px" /></a>
-                <a href="search.html"><img src={searchIcon} alt="Search" height="45px" /></a>
-                <a href="ecoscore.html"><img src={ecoScoreIcon} alt="Eco Score" height="45px" /></a>
+                <Link to="/issues">
+                    <img src={issuesIcon} alt="issues" height="45px" />
+                </Link>
+                <Link to="/ecoTips">
+                    <img src={ecoTipsIcon} alt="EcoTips" height="45px" />
+                </Link>
+                <Link to="/results">
+                    <img src={searchIcon} alt="Search" height="45px" />
+                </Link>
+                <Link to="/ecoScore">
+                    <img src={ecoScoreIcon} alt="ecoScore" height="45px" />
+                </Link>
+                {/* <a href="issues.html"> <img src={issuesIcon} alt="issues" height="45px" /></a> */}
+                {/* <a href="ecotips.html"><img src={ecoTipsIcon} alt="Eco Tips" height="45px" /></a> */}
+                {/* <a href="search.html"><img src={searchIcon} alt="Search" height="45px" /></a>
+                <a href="ecoscore.html"><img src={ecoScoreIcon} alt="Eco Score" height="45px" /></a> */}
             </nav>
         );
     }
