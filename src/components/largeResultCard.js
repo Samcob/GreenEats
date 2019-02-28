@@ -13,7 +13,7 @@ class LargeResultCard extends Component {
                     <Card.Title className="p-2">
                         Recipe
                     </Card.Title>
-                    <Card.Subtitle className="stats">
+                    <Card.Subtitle className="stats mb-4">
                         <div class="ecoScore"><strong>EcoScore:</strong> 51g CO2</div>
                         <div class="price"><strong>Price:</strong> $$</div>
                         <div class="time"><strong>Time:</strong> 32 mins</div>
