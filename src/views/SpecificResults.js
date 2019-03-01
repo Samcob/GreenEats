@@ -4,7 +4,7 @@ class SpecificResults extends Component {
     state = {}
     render() {
         return (
-            <p>SpecificResults Page</p>
+            <p className="mt-10">SpecificResults Page</p>
         );
     }
 }

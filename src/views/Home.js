@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import LargeResultCard from "../components/largeResultCard";
-import BottomNavbar from "../components/bottomNavbar";
-import TopHeader from "../components/TopHeader";
+// import BottomNavbar from "../components/bottomNavbar";
+// import TopHeader from "../components/TopHeader";
 
 //import '../styles/global.css';
 import "../styles/home.css"
@@ -17,8 +17,6 @@ class Home extends Component {
         // const { value } = this.state;
         return (
             <div className="App">
-
-                <TopHeader />
 
                 <div class="imgbox" title="Cover Photo of Veggie Omelette">
                     <div class="searchSection">
@@ -39,9 +37,6 @@ class Home extends Component {
                     </div>
 
                 </div>
-
-                <BottomNavbar />
-
 
                 {/*Page Content*/}
 

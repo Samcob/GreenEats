@@ -4,7 +4,7 @@ class EcoTips extends Component {
     state = {}
     render() {
         return (
-            <p>EcoTips Page</p>
+            <div></div>
         );
     }
 }

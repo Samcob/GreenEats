@@ -4,7 +4,7 @@ class EcoScore extends Component {
     state = {}
     render() {
         return (
-            <p>EcoScore Page</p>
+            <div></div>
         );
     }
 }

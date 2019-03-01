@@ -4,7 +4,7 @@ class Results extends Component {
     state = {}
     render() {
         return (
-            <p>Results Page</p>
+            <div></div>
         );
     }
 }

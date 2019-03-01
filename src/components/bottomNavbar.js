@@ -14,22 +14,18 @@ class BottomNavbar extends Component {
     render() {
         return (
             <nav class="navBar">
-                <Link to="/issues">
+                <Link className="icon" to="/issues">
                     <img src={issuesIcon} alt="issues" height="45px" />
                 </Link>
-                <Link to="/ecoTips">
+                <Link className="icon" to="/ecoTips">
                     <img src={ecoTipsIcon} alt="EcoTips" height="45px" />
                 </Link>
-                <Link to="/results">
+                <Link className="icon" to="/results">
                     <img src={searchIcon} alt="Search" height="45px" />
                 </Link>
-                <Link to="/ecoScore">
+                <Link className="icon" to="/ecoScore">
                     <img src={ecoScoreIcon} alt="ecoScore" height="45px" />
                 </Link>
-                {/* <a href="issues.html"> <img src={issuesIcon} alt="issues" height="45px" /></a> */}
-                {/* <a href="ecotips.html"><img src={ecoTipsIcon} alt="Eco Tips" height="45px" /></a> */}
-                {/* <a href="search.html"><img src={searchIcon} alt="Search" height="45px" /></a>
-                <a href="ecoscore.html"><img src={ecoScoreIcon} alt="Eco Score" height="45px" /></a> */}
             </nav>
         );
     }

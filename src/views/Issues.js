@@ -4,7 +4,9 @@ class Issues extends Component {
     state = {}
     render() {
         return (
-            <p>Issues Page</p>
+            <div>
+                <p>Issues</p>
+            </div>
         );
     }
 }
