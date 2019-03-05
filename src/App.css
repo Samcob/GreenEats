@@ -5,11 +5,6 @@
   transform: rotate(180deg);
 }
 
-.card {
-  border-style:solid;
-  height: 293px;
-}
-
 .footer{
   height: 100px;
 
