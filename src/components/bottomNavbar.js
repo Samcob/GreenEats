@@ -13,7 +13,7 @@ class BottomNavbar extends Component {
     state = {}
     render() {
         return (
-            <nav class="navBar">
+            <nav className="navBar">
                 <Link className="icon" to="/issues">
                     <img src={issuesIcon} alt="issues" height="45px" />
                 </Link>
