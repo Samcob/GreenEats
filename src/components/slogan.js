@@ -23,13 +23,11 @@ class Slogan extends Component {
         this.state = { modalVisible: false };
     }
 
-    // Uncomment to use the timer
-    //
-    // componentDidMount() {
-    //     setTimeout(() => {
-    //         this.setState({ modalVisible: true });
-    //     }, 1000);
-    // }
+    componentDidMount() {
+        setTimeout(() => {
+            this.setState({ modalVisible: true });
+        }, 1500);
+    }
 
     render() {
         return (

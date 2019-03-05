@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import LargeResultCard from "../components/largeResultCard";
+import Slogan from "../components/slogan";
 
 import "../styles/home.css"
 import Container from 'react-bootstrap/Container';
@@ -27,9 +28,10 @@ class Home extends Component {
                             </div>
                         </form>
 
-                        <p className="slogan">
+                        <Slogan />
+                        {/* <p className="slogan">
                             Sustainable eating made easy. Evaluate your meal's ecological impact.
-                        </p>
+                        </p> */}
 
                     </div>
 
