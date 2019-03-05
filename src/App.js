@@ -36,7 +36,7 @@ class App extends Component {
 
             {/* This search is not working for some reason */}
 
-            <Route path="/resuts" component={Results} />
+            <Route path="/results" component={Results} />
           </div>
         </BrowserRouter>
       </div>
