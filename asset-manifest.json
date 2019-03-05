@@ -1,16 +1,17 @@
 {
-  "main.css": "/GreenEats/static/css/main.2e36f1f0.chunk.css",
-  "main.js": "/GreenEats/static/js/main.cd204e36.chunk.js",
-  "main.js.map": "/GreenEats/static/js/main.cd204e36.chunk.js.map",
+  "main.css": "/GreenEats/static/css/main.6f9802a0.chunk.css",
+  "main.js": "/GreenEats/static/js/main.30874694.chunk.js",
+  "main.js.map": "/GreenEats/static/js/main.30874694.chunk.js.map",
   "runtime~main.js": "/GreenEats/static/js/runtime~main.9eaf084b.js",
   "runtime~main.js.map": "/GreenEats/static/js/runtime~main.9eaf084b.js.map",
-  "static/css/2.c94a3814.chunk.css": "/GreenEats/static/css/2.c94a3814.chunk.css",
-  "static/js/2.582a6ccf.chunk.js": "/GreenEats/static/js/2.582a6ccf.chunk.js",
-  "static/js/2.582a6ccf.chunk.js.map": "/GreenEats/static/js/2.582a6ccf.chunk.js.map",
+  "static/css/2.1f4dee36.chunk.css": "/GreenEats/static/css/2.1f4dee36.chunk.css",
+  "static/js/2.2607dec3.chunk.js": "/GreenEats/static/js/2.2607dec3.chunk.js",
+  "static/js/2.2607dec3.chunk.js.map": "/GreenEats/static/js/2.2607dec3.chunk.js.map",
   "index.html": "/GreenEats/index.html",
-  "precache-manifest.705510ad125378cb3dbb330b41f93a5e.js": "/GreenEats/precache-manifest.705510ad125378cb3dbb330b41f93a5e.js",
+  "precache-manifest.628c7fd41cbbb5008a3a0b1301c5f306.js": "/GreenEats/precache-manifest.628c7fd41cbbb5008a3a0b1301c5f306.js",
   "service-worker.js": "/GreenEats/service-worker.js",
-  "static/css/2.c94a3814.chunk.css.map": "/GreenEats/static/css/2.c94a3814.chunk.css.map",
-  "static/css/main.2e36f1f0.chunk.css.map": "/GreenEats/static/css/main.2e36f1f0.chunk.css.map",
-  "static/media/home.css": "/GreenEats/static/media/PhotoBackgroundVertical.2ea26319.jpg"
+  "static/css/2.1f4dee36.chunk.css.map": "/GreenEats/static/css/2.1f4dee36.chunk.css.map",
+  "static/css/main.6f9802a0.chunk.css.map": "/GreenEats/static/css/main.6f9802a0.chunk.css.map",
+  "static/media/home.css": "/GreenEats/static/media/PhotoBackgroundVertical.2ea26319.jpg",
+  "static/media/RecipeHeaderPhoto.jpg": "/GreenEats/static/media/RecipeHeaderPhoto.5efac034.jpg"
 }
