@@ -7,7 +7,10 @@ class Results extends Component {
     render() {
         console.log("hi")
         return (
-            <div class="hi">hello</div>
+            <div class="hi">
+                <br></br>
+                <br></br>
+                hello</div>
         );
     }
 }

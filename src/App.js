@@ -33,6 +33,9 @@ class App extends Component {
             <Route path="/ecoScore" component={EcoScore} />
             <Route path="/ecoTips" component={EcoTips} />
             <Route path="/issues" component={Issues} />
+
+            {/* This search is not working for some reason */}
+
             <Route path="/resuts" component={Results} />
           </div>
         </BrowserRouter>
