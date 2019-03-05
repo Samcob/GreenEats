@@ -1,0 +1,12 @@
+.smallCard {
+    width: 90%;
+    border-style: solid;
+    margin-top: 15px;
+    padding: 5px;
+    align-self: center;
+}
+
+.cardImage {
+    float: left;
+    margin-right: 20px;
+}

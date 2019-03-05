@@ -1,3 +1,29 @@
-.issues {
-    background-color: purple;
+.results {
+    border-style: solid;
+    width: 100%;
+    position: absolute;
+    margin-top: 45px;
+    /* height: 100%; */
+    /* display: flex; */
+    /* align-content: center; */
 }
+
+.filters {
+    border-style:solid;
+    padding:40px;
+}
+
+.searchbar {
+    border-style: solid;
+    padding: 60px;
+}
+
+.resultList {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-content: center; */
+}
+
+
+
