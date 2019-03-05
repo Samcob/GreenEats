@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import posed from "react-pose";
 import SplitText from "react-pose-text";
 
 import "../styles/home.css"

@@ -37,6 +37,9 @@ class App extends Component {
             {/* This search is not working for some reason */}
 
             <Route path="/results" component={Results} />
+
+            {/* also browser router is doing some funky things when published to gh pages but
+            works fine on local server */}
           </div>
         </BrowserRouter>
       </div>
