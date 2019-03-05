@@ -22,6 +22,15 @@ class Slogan extends Component {
         super(props);
         this.state = { modalVisible: false };
     }
+
+    // Uncomment to use the timer
+    //
+    // componentDidMount() {
+    //     setTimeout(() => {
+    //         this.setState({ modalVisible: true });
+    //     }, 1000);
+    // }
+
     render() {
         return (
             <div initialPose="enter" pose="exit">
@@ -34,4 +43,4 @@ class Slogan extends Component {
     }
 }
 
-export default posed(Slogan)(charPoses);
+export default Slogan;
