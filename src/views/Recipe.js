@@ -4,7 +4,9 @@ class Recipe extends Component {
     state = {}
     render() {
         return (
-            <p className="mt-10">Recipe Page</p>
+            <div>
+                <p>Recipe Page</p>
+            </div>
         );
     }
 }
