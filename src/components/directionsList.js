@@ -22,7 +22,7 @@ class DirectionsList extends Component {
                         <h2>3</h2>
                         <p>Pulse tomatoes in the food processor until finely chopped. Add to the pan along with salt. Reduce heat to maintain a simmer and cook, stirring occasionally, for 4 minutes. Add chickpeas and garam masala, reduce heat to a gentle simmer, cover and cook, stirring occasionally, for 5 minutes more. Serve topped with cilantro, if desired.</p>
                     </ListGroup.Item>
-                </ListGroup>;
+                </ListGroup>
             </div>
         );
     }
