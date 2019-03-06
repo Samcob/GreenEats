@@ -33,7 +33,13 @@ class App extends Component {
             <Route path="/ecoScore" component={EcoScore} />
             <Route path="/ecoTips" component={EcoTips} />
             <Route path="/issues" component={Issues} />
-            <Route path="/resuts" component={Results} />
+
+            {/* This search is not working for some reason */}
+
+            <Route path="/results" component={Results} />
+
+            {/* also browser router is doing some funky things when published to gh pages but
+            works fine on local server */}
           </div>
         </BrowserRouter>
       </div>

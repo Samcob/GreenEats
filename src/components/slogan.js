@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import posed from "react-pose";
 import SplitText from "react-pose-text";
 
 import "../styles/home.css"
@@ -22,6 +21,13 @@ class Slogan extends Component {
         super(props);
         this.state = { modalVisible: false };
     }
+
+    componentDidMount() {
+        setTimeout(() => {
+            this.setState({ modalVisible: true });
+        }, 1500);
+    }
+
     render() {
         return (
             <div initialPose="enter" pose="exit">
@@ -34,4 +40,4 @@ class Slogan extends Component {
     }
 }
 
-export default posed(Slogan)(charPoses);
+export default Slogan;

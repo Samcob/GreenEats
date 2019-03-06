@@ -1,8 +1,7 @@
-div{
+.ecoscore {
     background-color: blue;
     display: 'flex';
     flex-direction: 'column';
     justify-content: 'center';
     align-content: 'center';
-    margin: 200px;
 }

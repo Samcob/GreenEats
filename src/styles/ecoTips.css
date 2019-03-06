@@ -1,4 +1,4 @@
-div{
+.hi {
     background-color: orange;
     display: 'flex';
     flex-direction: 'column';

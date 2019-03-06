@@ -1,0 +1,7 @@
+.list-group > button{
+    vertical-align: middle;
+}
+
+.list-group-item > img{
+    float: right;
+}

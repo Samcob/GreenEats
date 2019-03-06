@@ -1,0 +1,10 @@
+.list-group-item > h2{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Need to figure out how to make text align to right side of direction number. */
+.list-group-item > p{
+    display: inline-block;
+    word-wrap: break-word;
+}

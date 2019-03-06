@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import photo from "../styles/Images/BackgroundPhotoHorizontal.jpg";
+
+import "../styles/recipe.css";
 
 class Recipe extends Component {
     state = {}
     render() {
         return (
-            <p className="mt-10">Recipe Page</p>
+            <div className="App">
+                <img className="headerImage" src={photo} alt="Recipe Header"></img>
+            </div>
         );
     }
 }
