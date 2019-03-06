@@ -1,44 +1,20 @@
 import React, { Component } from 'react';
+// import photo from "../styles/Images/BackgroundPhotoHorizontal.jpg";
 
-import "../styles/issues.css"
-
-import SmallResultCard from "../components/smallResultCard";
+// import "../styles/recipe.css";
 
 class Issues extends Component {
     state = {}
-
     render() {
         return (
-            <div class="results">
-                <div class="searchbar">Search Bar</div>
-                <div class="filters">Filters</div>
+            <div className="App">
+                <br></br>
+                <br></br>
 
-                <div class="resultList">
+                <br></br>
 
-                    {/* Replace with for loop! */}
-
-                    <SmallResultCard />
-
-                    <SmallResultCard />
-
-                    <SmallResultCard />
-
-                    <SmallResultCard />
-
-                    <SmallResultCard />
-
-                    <SmallResultCard />
-
-                    <SmallResultCard />
-
-                    {/* Replace with for loop! */}
-
-
-                </div>
-
+                <p>hi</p>
             </div>
-
-
         );
     }
 }
