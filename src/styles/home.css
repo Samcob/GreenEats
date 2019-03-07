@@ -67,12 +67,41 @@
 
 .pickTitles{
     color: #2D8B50;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .columns{
     margin-bottom: 25px;
 }
+
+.container {
+    max-width: 95%
+}
+
+.suggestions {
+    padding:0px;
+}
+
+.columns {
+    margin-bottom: 60px;
+}
+
+
+
+/* @media (min-width: 1200px) {
+   .container {
+       max-width: 95%
+   }
+
+} */
+
+ /* @media (min-width: 992) {
+    .container {
+        max-width: 95%
+    }
+} */
 
 
 @media (min-width: 500px) {
@@ -84,6 +113,13 @@
       flex-direction: column;
       justify-content: center;
     }
+
+    .suggestions {
+        padding:22px;
+    }
+
+    
+
 
     /* needs to be its own component */
 
@@ -111,9 +147,16 @@
           margin-top: 20px;
           font-size: 20pt;
       }
+
+ 
   }
+
 
 .footer{
     height: 100px;
-  
 }
+
+/* .container {
+    padding-right: 5px;
+    padding-left: 5px;
+} */

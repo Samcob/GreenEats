@@ -7,23 +7,25 @@ class LargeResultCard extends Component {
     state = {}
     render() {
         return (
-            <div className="App">
+            <div className="LargeResultCard">
 
                 <Card bg="#F7F1F1">
                     <Card.Title className="p-2">
-                        Recipe
+                        {this.props.recipeTitle}
                     </Card.Title>
-                    <Card.Subtitle className="stats mb-4">
-                        <div class="ecoScore"><strong>EcoScore:</strong> 51g CO2</div>
-                        <div class="price"><strong>Price:</strong> $$</div>
-                        <div class="time"><strong>Time:</strong> 32 mins</div>
-                    </Card.Subtitle>
+                    <div class="stats">
+                        <div class="stat"><strong>EcoScore | </strong>{this.props.ecoScore}</div>
+                        <div class="spacing"></div>
+                        <div class="stat"><strong>Price | </strong>{this.props.price}</div>
+                        <div class="spacing"></div>
+                        <div class="stat"><strong>Time | </strong>{this.props.time}</div>
+                    </div>
                     <Card.Body>
                         <Card.Text>
-                            This is where the text will go that describes each recipe.
+                            {this.props.description}
                         </Card.Text>
                     </Card.Body>
-                    <Card.Img className="cardImage" variant="bottom" src="./Images/PhotoBackgroundHorizontal.jpg" />
+                    <Card.Img className="cardImage" variant="bottom" src={this.props.recipeImage} />
                 </Card>
             </div >
         );
