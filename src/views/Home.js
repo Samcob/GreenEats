@@ -13,17 +13,17 @@ class Home extends Component {
     render() {
 
         return (
-            <div className="App">
+            <div className="Home">
 
-                <div class="imgbox" title="Cover Photo of Veggie Omelette">
-                    <div class="searchSection">
+                <div className="imgbox" title="Cover Photo of Veggie Omelette">
+                    <div className="searchSection">
 
-                        <p class="landingSearch"> Search for food or paste recipe link</p>
+                        <p className="landingSearch"> Search for food or paste recipe link</p>
                         <form>
-                            <div class="searchBar">
+                            <div className="searchBar">
 
-                                <input class="submit" type="image" src="./Images/greySearch.png" alt="Search" />
-                                <input class="type" type="text" name="name" />
+                                <input className="submit" type="image" src="./Images/greySearch.png" alt="Search" />
+                                <input className="type" type="text" name="name" />
 
                             </div>
                         </form>
@@ -39,26 +39,26 @@ class Home extends Component {
 
                 {/*Page Content*/}
 
-                <h2 class="ourPicks pl-1 mb-5"> Our Favorite Picks For Today!</h2>
+                <h2 className="ourPicks pl-1 mb-5"> Our Favorite Picks For Today!</h2>
 
                 <Container>
                     <Row>
                         <Col className="columns" sm={12} md={6} lg={4}>
-                            <h5 class="pickTitles">Breakfast</h5>
+                            <h5 className="pickTitles">Breakfast</h5>
                             <LargeResultCard />
                         </Col>
                         <Col className="columns" sm={12} md={6} lg={4}>
-                            <h5 class="pickTitles">Lunch</h5>
+                            <h5 className="pickTitles">Lunch</h5>
                             <LargeResultCard />
                         </Col>
                         <Col className="columns" sm={12} md={6} lg={4}>
-                            <h5 class="pickTitles">Dinner</h5>
+                            <h5 className="pickTitles">Dinner</h5>
                             <LargeResultCard />
                         </Col>
                     </Row>
                 </Container>
 
-                <div class="footer"></div>
+                <div className="footer"></div>
             </div >
         );
     }
