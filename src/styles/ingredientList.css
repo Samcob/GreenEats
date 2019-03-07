@@ -1,3 +1,5 @@
+/* Need to figure out how to center the text when icon is displayed. */
+
 .list-group > button{
     vertical-align: middle;
 }

@@ -13,17 +13,17 @@ class Home extends Component {
     render() {
 
         return (
-            <div className="App">
+            <div className="Home">
 
-                <div class="imgbox" title="Cover Photo of Veggie Omelette">
-                    <div class="searchSection">
+                <div className="imgbox" title="Cover Photo of Veggie Omelette">
+                    <div className="searchSection">
 
-                        <p class="landingSearch"> Search for food or paste recipe link</p>
+                        <p className="landingSearch"> Search for food or paste recipe link</p>
                         <form>
-                            <div class="searchBar">
+                            <div className="searchBar">
 
-                                <input class="submit" type="image" src="./Images/greySearch.png" alt="Search" />
-                                <input class="type" type="text" name="name" />
+                                <input className="submit" type="image" src="./Images/greySearch.png" alt="Search" />
+                                <input className="type" type="text" name="name" />
 
                             </div>
                         </form>
