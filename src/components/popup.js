@@ -19,18 +19,21 @@ class Popup extends Component {
         let bIngredient1 = "1 can of black beans";
         let bIngredient2 = "Tofu";
         var newIngredients = [{ bIngredient1 }, { bIngredient2 }];
-        var listItems = []
 
-        function genList(newIngredients) {
-            newIngredients.forEach(function (ingredient) {
-                listItems.push(
-                    <ListGroup.Item>
-                        {ingredient}
-                    </ListGroup.Item>
-                )
-            })
-            return (listItems);
-        }
+        // function genList(newIngredients) {
+        //     var listItems = []
+        //     var i;
+
+        //     for (i = 0; i < newIngredients.length(); i++) {
+        //         listItems.push(
+        //             <ListGroup.Item>
+        //                 {newIngredients[i]}
+        //             </ListGroup.Item>
+        //         )
+        //     }
+
+        //     return listItems;
+        // }
 
         return (
 
@@ -48,22 +51,13 @@ class Popup extends Component {
                 <Modal.Body>
                     <h4 className="mb-3">Replace {ingredient} with:</h4>
 
-                    <ListGroup variant="flush">
+                    {/* <ListGroup variant="flush">
                         {genList(newIngredients)}
+                    </ListGroup> */}
 
-                    </ListGroup>
-
-                    {/* <div className="clearOption">
-                        <Button variant="danger">Clear</Button>
-                        <p>-3 EcoScore</p>
-                    </div>
-                    <div className="divider">
-                        <h6>Other options:</h6>
-                    
-                    </div>
                     <div className="otherOption">
                         <Button variant="success">Save</Button>
-                    </div>*/}
+                    </div>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button onClick={this.props.onHide}>Close</Button>
