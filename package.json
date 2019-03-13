@@ -5,6 +5,7 @@
   "homepage": "https://Samcob.github.io/GreenEats/",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
+    "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
     "react": "^16.8.2",

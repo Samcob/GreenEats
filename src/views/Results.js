@@ -8,7 +8,13 @@ import "../styles/results.css"
 import SmallResultCard from "../components/smallResultCard";
 
 class Results extends Component {
-    state = {}
+    constructor(props) {
+        super(props)
+        this.state = {
+            parentProps: props.location.state,
+        }
+        console.log(props)
+    }
 
     render() {
 
@@ -16,7 +22,9 @@ class Results extends Component {
             var i;
             var arr = []
             for (i = 0; i < amount; i++) {
-                arr.push(<SmallResultCard />)
+                arr.push(<SmallResultCard recipeTitle="Veggie Omlette" recipeImage="./Images/veggieOm.jpg"
+                    ecoScore="5/5" time="30 Minutes" price="$$"
+                    description="This omelette is so yummy, I make it all the time! It's loaded with healthy veggies." />)
             }
             return arr;
         }

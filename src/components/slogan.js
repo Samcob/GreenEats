@@ -25,7 +25,7 @@ class Slogan extends Component {
     componentDidMount() {
         setTimeout(() => {
             this.setState({ modalVisible: true });
-        }, 1500);
+        }, 1000);
     }
 
     render() {
