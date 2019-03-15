@@ -10,6 +10,8 @@ import Col from 'react-bootstrap/Col';
 
 class Home extends Component {
 
+    // Made new branch
+
     render() {
 
         return (
