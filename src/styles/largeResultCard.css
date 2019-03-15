@@ -39,3 +39,12 @@
 .spacing {
     flex: 1 0 10px;
 }
+
+.LargeResultCard > a {
+    color: black;
+}
+
+.LargeResultCard > a:hover {
+    text-decoration: none;
+    color: black;
+}

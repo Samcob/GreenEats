@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import "../styles/smallResultCard.css";
 
 
@@ -7,13 +9,18 @@ class SmallResultCard extends Component {
     render() {
         return (
             <div class="smallCard">
+                <Link to={{
+                    pathname: "/recipe",
+                    search: "?",
+                    state: this.props
+                }}>
 
-                <img class="cardImage" src="./Images/smallcard.png" alt="icon"></img>
-                <p>Recipe Name </p>
-                <div class="ecoScore"><strong>EcoScore:</strong> 51g CO2</div>
-                <div class="price"><strong>Price:</strong> $$</div>
-                <div class="time"><strong>Time:</strong> 32 mins</div>
-
+                    <img className="cardImage" src={this.props.recipeImage} alt="icon"></img>
+                    <p className="recipeName">{this.props.recipeName}</p>
+                    <div className="ecoScore"><strong>EcoScore:</strong> {this.props.ecoScore}</div>
+                    <div className="price"><strong>Price:</strong>{this.props.price}</div>
+                    <div className="time"><strong>Time:</strong>{this.props.time}</div>
+                </Link>
             </div>
         )
 

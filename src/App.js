@@ -6,6 +6,8 @@ import EcoScore from "./views/EcoScore";
 import EcoTips from "./views/EcoTips";
 import Issues from "./views/Issues";
 import Results from "./views/Results";
+import Recipe from "./views/Recipe";
+
 import BottomNavbar from "./components/bottomNavbar";
 import TopHeader from "./components/TopHeader";
 
@@ -33,6 +35,7 @@ class App extends Component {
             <Route path="/ecoScore" component={EcoScore} />
             <Route path="/ecoTips" component={EcoTips} />
             <Route path="/issues" component={Issues} />
+            <Route path="/recipe" component={Recipe} />
 
             {/* This search is not working for some reason */}
 

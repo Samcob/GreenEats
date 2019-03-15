@@ -10,3 +10,12 @@
     float: left;
     margin-right: 20px;
 }
+
+.smallCard > a {
+    color: black;
+}
+
+.smallCard > a:hover {
+    text-decoration: none;
+    color: black;
+}
