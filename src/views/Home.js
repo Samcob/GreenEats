@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import axios from "axios";
 
 import LargeResultCard from "../components/largeResultCard";
 import Slogan from "../components/slogan";
+import SearchBar from "../components/searchBar";
 
 import "../styles/home.css"
 import Container from 'react-bootstrap/Container';
@@ -10,28 +10,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 class Home extends Component {
-    state = {
-        results: {}
-    }
-    recipeSearch(searchPhrase) {
-        let apiURL = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
-        let apiKey = "95kefuyGhMmsh5fvZ5iUw5IpoleOp1fj6ygjsn2aoaYqg3AJvh"
-        let number = "number=15"
-        let call = "/recipes/search?"
-        let query = "query=" + this.state.searchPhrase
+    constructor(props) {
+        super(props);
+        this.state = {
 
-        axios.get(apiURL + call + number + "&" + query, {
-            headers: {
-                "X-RapidAPI-Key": apiKey
-            }
-        })
-            .then(function (response) {
-                this.setState({ results: response.data.results })
-                console.log(this.state.results)
-            })
-            .catch(function (error) {
-                console.log(error)
-            })
+        }
     }
 
     render() {
@@ -43,14 +26,10 @@ class Home extends Component {
                     <div className="searchSection">
 
                         <p className="landingSearch"> Search for food or paste recipe link</p>
-                        <form>
-                            <div className="searchBar">
 
-                                <input className="submit" type="image" src="./Images/greySearch.png" alt="Search" />
-                                <input className="type" type="text" name="name" />
-
-                            </div>
-                        </form>
+                        {/* <input className="submit" type="image" src="./Images/greySearch.png" alt="Search" />
+                                <input className="type" type="text" name="name" /> */}
+                        <SearchBar />
 
                         <Slogan />
 

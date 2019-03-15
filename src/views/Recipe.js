@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import IngredientList from "../components/ingredientList";
 import DirectionsList from "../components/directionsList";
 
-import RecipeGetter from "../producers/recipeGetter";
 
 import "../styles/recipe.css";
 
@@ -12,7 +11,6 @@ class Recipe extends Component {
         this.state = {
             parentProps: props.location.state,
         }
-        console.log(props)
     }
 
     render() {
