@@ -1,3 +1,3 @@
-export default class RecipeGetter {
+export default class SearchTextProvider {
     static searchText = ""
 }

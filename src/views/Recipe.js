@@ -29,7 +29,7 @@ class Recipe extends Component {
 
                         <div className="price"><strong>Price: </strong>{this.props.location.state.price}</div>
 
-                        <div className="time"><strong>Time: </strong>{this.props.location.state.time}}</div>
+                        <div className="time"><strong>Time: </strong>{this.props.location.state.time}</div>
 
                         <div className="calories"><strong>Calories: </strong> 200 <i>(per serving)</i></div>
 
