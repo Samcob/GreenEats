@@ -65,13 +65,17 @@ class Results extends Component {
                     <SearchBar />
                 </div>
                 <div class="filters">
-                    <ButtonToolbar>
-                        <ToggleButtonGroup type="checkbox" defaultValue={1}>
-                            <ToggleButton value={1} variant="success">EcoScore</ToggleButton>
-                            <ToggleButton value={2} variant="success">Price</ToggleButton>
-                            <ToggleButton value={3} variant="success">Time</ToggleButton>
-                        </ToggleButtonGroup>
-                    </ButtonToolbar>
+                    <h5 class="resultsTitle">Results</h5>
+                    <div class="sortFilters">
+                        <p class="sort"> Sort By|</p>
+                        <ButtonToolbar>
+                            <ToggleButtonGroup type="checkbox" defaultValue={1}>
+                                <ToggleButton value={1} variant="success">EcoScore</ToggleButton>
+                                <ToggleButton value={2} variant="success">Price</ToggleButton>
+                                <ToggleButton value={3} variant="success">Time</ToggleButton>
+                            </ToggleButtonGroup>
+                        </ButtonToolbar>
+                    </div>
                 </div>
                 <div class="resultList">
                     {console.log(this.props.location.state)}
