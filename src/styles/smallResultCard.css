@@ -1,5 +1,5 @@
 .smallCard {
-    width: 90%;
+    width: 95%;
     border-style: solid;
     margin-top: 15px;
     padding: 5px;
@@ -9,6 +9,9 @@
 .cardImage {
     float: left;
     margin-right: 20px;
+    width: 108px;
+    height: 108px;
+    border-radius: 3px;
 }
 
 .smallCard > a {
@@ -19,3 +22,21 @@
     text-decoration: none;
     color: black;
 }
+
+@media (min-width: 768px) {
+
+    .smallCard {
+        width: 50%;
+    }
+    
+
+}
+
+/* @media (min-width: 1224px) {
+
+    .smallCard {
+        width: 60%;
+    }
+    
+
+} */

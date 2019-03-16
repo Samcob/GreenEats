@@ -2,11 +2,20 @@
     background-color:#2D8B50;
     overflow: hidden;
     min-height: 0px;
+    height: 45px;
     width:100%;
     position: absolute;
+    display: flex;
+    align-items: center;
   }
   
   .App-header img{
   margin-left:8px;
   
+  }
+
+  @media (min-width: 500px) {
+    .App-header {
+    height: 55px;
+    }
   }

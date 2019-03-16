@@ -1,6 +1,7 @@
-.cardImage {
+.card > .cardImage {
     object-fit: cover;
     overflow: hidden;
+    height: 200px;
 }
 
 /* .stats{
@@ -14,6 +15,13 @@
     font-size: 24pt;
     font-weight: Bold;
 }
+
+.card > .card-body > .card-text {
+  
+    
+   
+}
+
 
 /* .card > .card-subtitle {
     margin-bottom: 0;
