@@ -17,8 +17,6 @@ class Popup extends Component {
 
         // }
 
-        let hide = "this.state.onHide"
-
         return (
 
             <Modal

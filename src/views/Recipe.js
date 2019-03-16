@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import IngredientList from "../components/ingredientList";
 import DirectionsList from "../components/directionsList";
 
-import RecipeGetter from "../producers/recipeGetter";
 
 import "../styles/recipe.css";
 
@@ -12,7 +11,6 @@ class Recipe extends Component {
         this.state = {
             parentProps: props.location.state,
         }
-        console.log(props)
     }
 
     render() {
@@ -31,7 +29,7 @@ class Recipe extends Component {
 
                         <div className="price"><strong>Price: </strong>{this.props.location.state.price}</div>
 
-                        <div className="time"><strong>Time: </strong>{this.props.location.state.time}}</div>
+                        <div className="time"><strong>Time: </strong>{this.props.location.state.time}</div>
 
                         <div className="calories"><strong>Calories: </strong> 200 <i>(per serving)</i></div>
 
