@@ -38,7 +38,6 @@ class Recipe extends Component {
 
                 <div className="recipeContent">
 
-
                     <IngredientList id={this.props.location.state.id} />
 
                     <DirectionsList id={this.props.location.state.id} />

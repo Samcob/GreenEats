@@ -53,8 +53,9 @@ class IngredientList extends Component {
         // let modalClose = () => this.setState({ modalShow: false });
 
         return (
-          
-            < div className="ingredients" >
+
+            < div className="ingredientsGroup" >
+                <h5 className="title">Ingredients</h5>
                 < ListGroup variant="flush" >
                     {this.createList()}
                 </ListGroup >

@@ -1,9 +1,10 @@
 // Large Result Card Component
 import React, { Component } from 'react';
 import Card from "react-bootstrap/Card";
-import "../styles/largeResultCard.css"
-
+import axios from "axios";
 import { Link } from 'react-router-dom';
+
+import "../styles/largeResultCard.css";
 
 class LargeResultCard extends Component {
     state = {}
