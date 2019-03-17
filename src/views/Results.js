@@ -4,17 +4,18 @@ import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import SearchBar from "../components/searchBar";
 import axios from "axios";
-import ListGroup from "react-bootstrap/ListGroup";
-
-import "../styles/results.css"
 
 import SmallResultCard from "../components/smallResultCard";
+import SearchToBegin from "../styles/Images/searchToBegin.jpg";
+
+
+import "../styles/results.css"
 
 class Results extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            parentProps: props.location.state,
+            parentProps: this.props.location.state,
             results: {}
         }
     }
@@ -23,11 +24,24 @@ class Results extends Component {
 
     apiKey = "95kefuyGhMmsh5fvZ5iUw5IpoleOp1fj6ygjsn2aoaYqg3AJvh"
 
+    isEmpty(obj) {
+        for (var key in obj) {
+            if (obj.hasOwnProperty(key))
+                return false;
+        }
+        return true;
+    }
+
+    newSearch() {
+        if (this.isEmpty(this.props.location.state) === true && this.isEmpty(this.state.results) === true) {
+            return <img className="searchPrompt" src={SearchToBegin} alt="search to begin" />
+        }
+    }
+
     recipeSearch() {
         let number = "number=15"
         let call = "/recipes/search?"
-        let query = "query=" + this.props.location.state
-
+        let query = "query=" + this.props.location.state.searchPhrase
 
         axios.get(this.apiURL + call + number + "&" + query, {
             headers: {
@@ -43,18 +57,17 @@ class Results extends Component {
     }
 
     createList() {
-        if (Object.keys(this.state.results).length === 0) {
+        if (this.isEmpty(this.props.location.state) === false && Object.keys(this.state.results).length < 1) {
             this.recipeSearch()
         }
-        console.log(this.state.results)
         var i
         var arr = []
         let imgURL = "https://spoonacular.com/recipeImages/"
         for (i = 0; i < this.state.results.length; i++) {
-            arr.push(
-                <SmallResultCard key={i} recipeTitle={this.state.results[i].title} recipeImage={imgURL + this.state.results[i].id + "-240x150.jpg"}
-                    ecoScore="5/5" time={this.state.results[i].readyInMinutes + " Minutes"} price="$$"
-                    description="This omelette is so yummy, I make it all the time! It's loaded with healthy veggies." />)
+
+            arr.push(<SmallResultCard key={i} recipeTitle={this.state.results[i].title} recipeImage={imgURL + this.state.results[i].id + "-240x150.jpg"}
+                ecoScore="5/5" time={this.state.results[i].readyInMinutes + " Minutes"} price="$$" id={this.state.results[i].id}
+                description="This omelette is so yummy, I make it all the time! It's loaded with healthy veggies." />)
         }
         return arr;
     }
@@ -62,15 +75,17 @@ class Results extends Component {
     render() {
 
         return (
+
             <div class="results">
                 <div class="searchbar">
                     <p className="label">Search for food or paste recipe link</p>
+
                     <SearchBar />
                 </div>
-                <div class="filters">
-                    <h5 class="resultsTitle">Results</h5>
-                    <div class="sortFilters">
-                        <p class="sort"> Sort By|</p>
+                <div className="filters">
+                    <h5 className="resultsTitle">Results</h5>
+                    <div className="sortFilters">
+                        <p className="sort"> Sort By|</p>
                         <ButtonToolbar>
                             <ToggleButtonGroup type="checkbox" defaultValue={1}>
                                 <ToggleButton value={1} variant="success">EcoScore</ToggleButton>
@@ -80,8 +95,11 @@ class Results extends Component {
                         </ButtonToolbar>
                     </div>
                 </div>
-                <div class="resultList">
-                    {console.log(this.props.location.state)}
+
+                {this.newSearch()}
+
+                <div className="resultList">
+
                     {this.createList()}
                 </div>
 

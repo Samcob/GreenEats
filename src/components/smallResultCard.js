@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import axios from "axios";
 
 import "../styles/smallResultCard.css";
 
 
 class SmallResultCard extends Component {
-    state = {}
+    state = {
+        id: this.props.id
+    }
     render() {
         return (
             <div class="smallCard">
@@ -18,11 +21,11 @@ class SmallResultCard extends Component {
                     <img className="cardImage" src={this.props.recipeImage} alt="icon"></img>
                     <p className="recipeName">{this.props.recipeTitle}</p>
 
-                    <div class="stats">
-                        <div class="stat"><strong>EcoScore | </strong>{this.props.ecoScore}</div>
+                    <div className="stats">
+                        <div className="stat"><strong>EcoScore | </strong>{this.props.ecoScore}</div>
 
-                        <div class="stat"><strong>Price | </strong>{this.props.price}</div>
-                        <div class="stat"><strong>Time | </strong>{this.props.time}</div>
+                        <div className="stat"><strong>Price | </strong>{this.props.price}</div>
+                        <div className="stat"><strong>Time | </strong>{this.props.time}</div>
                     </div>
                 </Link>
             </div>

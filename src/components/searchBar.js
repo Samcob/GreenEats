@@ -7,12 +7,11 @@ import { Link } from 'react-router-dom';
 
 import "../styles/searchBar.css";
 
-// import SearchTextProvider from "../providers/searchTextProvider";
-
 class SearchBar extends Component {
     state = {
         searchPhrase: ""
     }
+
     render() {
         return (
             <Form className="searchBar">
@@ -21,7 +20,7 @@ class SearchBar extends Component {
                         <InputGroup.Prepend>
                             <Link to={{
                                 pathname: "/results",
-                                state: this.state.searchPhrase
+                                state: this.state,
                             }}>
                                 <Button variant="secondary">
                                     Search
@@ -31,7 +30,9 @@ class SearchBar extends Component {
                         <Form.Control
                             onChange={(e) => this.setState({ searchPhrase: e.target.value })}
                             type="text"
-                            placeHolder="search for a recipe" />
+                            placeHolder="search for a recipe"
+                        // onKeyPress={(e) => { if (e.target.charCode === "13") { console.log("yoooooo") } }} 
+                        />
                     </InputGroup>
                 </FormGroup>
             </Form>
