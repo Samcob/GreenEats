@@ -1,8 +1,11 @@
 .smallCard {
     width: 95%;
-    border-style: solid;
-    margin-top: 15px;
+    border-top-style: solid;
+    margin-top: -1px;
+    border-color: lightgray;
     padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     align-self: center;
 }
 
@@ -14,6 +17,16 @@
     border-radius: 3px;
 }
 
+.recipeName {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+    font-size: 16pt;
+    font-weight: bold;
+    
+}
+
 .smallCard > a {
     color: black;
 }
@@ -23,14 +36,38 @@
     color: black;
 }
 
+.stats {
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.stat {
+    /* margin-right: 40px; */
+    overflow: none;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+
+
+
 @media (min-width: 768px) {
 
     .smallCard {
         width: 50%;
     }
-    
-
 }
+
+@media (min-width: 349px) {
+
+    .recipeName {
+        margin-bottom: 10px;
+    }
+}
+
+
 
 /* @media (min-width: 1224px) {
 

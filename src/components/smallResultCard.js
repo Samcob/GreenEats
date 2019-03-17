@@ -16,10 +16,14 @@ class SmallResultCard extends Component {
                 }}>
 
                     <img className="cardImage" src={this.props.recipeImage} alt="icon"></img>
-                    <p className="recipeName">{this.props.recipeName}</p>
-                    <div className="ecoScore"><strong>EcoScore: </strong> {this.props.ecoScore}</div>
-                    <div className="price"><strong>Price: </strong>{this.props.price}</div>
-                    <div className="time"><strong>Time: </strong>{this.props.time}</div>
+                    <p className="recipeName">{this.props.recipeTitle}</p>
+
+                    <div class="stats">
+                        <div class="stat"><strong>EcoScore | </strong>{this.props.ecoScore}</div>
+
+                        <div class="stat"><strong>Price | </strong>{this.props.price}</div>
+                        <div class="stat"><strong>Time | </strong>{this.props.time}</div>
+                    </div>
                 </Link>
             </div>
         )

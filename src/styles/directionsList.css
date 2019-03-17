@@ -8,3 +8,15 @@
     display: inline-block;
     word-wrap: break-word;
 }
+
+.directionsGroup {
+    /* border-style: solid; */
+    width: 95%;
+}
+
+@media (min-width: 500px) {
+    .directionsGroup {
+        width: 50vw;
+    }
+
+}
