@@ -64,6 +64,11 @@
 
 }
 
+.searchToBegin{
+    width:400px;
+    height: 400px;
+}
+
 @media (min-width: 768px) {
 
     .filters {

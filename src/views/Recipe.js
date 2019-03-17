@@ -39,11 +39,11 @@ class Recipe extends Component {
 
                     <h5 className="title">Ingredients</h5>
 
-                    <IngredientList />
+                    <IngredientList id={this.props.location.state.id} />
 
                     <h5 className="title">Directions</h5>
 
-                    <DirectionsList />
+                    <DirectionsList id={this.props.location.state.id} />
                 </div>
 
                 <div className="footer"></div>
