@@ -62,7 +62,7 @@ class Results extends Component {
         var arr = []
         let imgURL = "https://spoonacular.com/recipeImages/"
         for (i = 0; i < this.state.results.length; i++) {
-            arr.push(<SmallResultCard key={i} recipeTitle={this.state.results[i].title} recipeImage={imgURL + this.state.results[i].id + "-90x90.jpg"}
+            arr.push(<SmallResultCard key={i} recipeTitle={this.state.results[i].title} recipeImage={imgURL + this.state.results[i].id + "-240x150.jpg"}
                 ecoScore="5/5" time={this.state.results[i].readyInMinutes + " Minutes"} price="$$" id={this.state.results[i].id}
                 description="This omelette is so yummy, I make it all the time! It's loaded with healthy veggies." />)
         }
