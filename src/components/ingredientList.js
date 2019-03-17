@@ -17,8 +17,9 @@ class IngredientList extends Component {
         let modalClose = () => this.setState({ modalShow: false });
 
         return (
-            <div>
+            <div className="ingredientsGroup">
                 {/*make into a for loop that generates list*/}
+                <h5 className="title">Ingredients</h5>
                 <ListGroup variant="flush">
                     <ListGroup.Item>2 cans of chickpeas</ListGroup.Item>
                     <ListGroup.Item>2 cups of basmati rice</ListGroup.Item>

@@ -4,6 +4,7 @@ import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import SearchBar from "../components/searchBar";
 import axios from "axios";
+import ListGroup from "react-bootstrap/ListGroup";
 
 import "../styles/results.css"
 
@@ -50,9 +51,10 @@ class Results extends Component {
         var arr = []
         let imgURL = "https://spoonacular.com/recipeImages/"
         for (i = 0; i < this.state.results.length; i++) {
-            arr.push(<SmallResultCard key={i} recipeName={this.state.results[i].title} recipeImage={imgURL + this.state.results[i].id + "-240x150.jpg"}
-                ecoScore="5/5" time={this.state.results[i].readyInMinutes + " Minutes"} price="$$"
-                description="This omelette is so yummy, I make it all the time! It's loaded with healthy veggies." />)
+            arr.push(
+                <SmallResultCard key={i} recipeTitle={this.state.results[i].title} recipeImage={imgURL + this.state.results[i].id + "-240x150.jpg"}
+                    ecoScore="5/5" time={this.state.results[i].readyInMinutes + " Minutes"} price="$$"
+                    description="This omelette is so yummy, I make it all the time! It's loaded with healthy veggies." />)
         }
         return arr;
     }
@@ -62,6 +64,7 @@ class Results extends Component {
         return (
             <div class="results">
                 <div class="searchbar">
+                    <p className="label">Search for food or paste recipe link</p>
                     <SearchBar />
                 </div>
                 <div class="filters">
@@ -80,7 +83,6 @@ class Results extends Component {
                 <div class="resultList">
                     {console.log(this.props.location.state)}
                     {this.createList()}
-
                 </div>
 
             </div>

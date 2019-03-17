@@ -7,8 +7,9 @@ class DirectionsList extends Component {
     state = {}
     render() {
         return (
-            <div>
+            <div className="directionsGroup">
                 {/*make into a for loop that generates list*/}
+                <h5 className="title">Directions</h5>
                 <ListGroup variant="flush">
                     <ListGroup.Item>
                         <h2>1</h2>

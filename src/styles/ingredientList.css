@@ -7,3 +7,17 @@
 .list-group-item > img{
     float: right;
 }
+
+.ingredientsGroup {
+    /* border-style: solid; */
+    width: 95%;
+    
+}
+
+@media (min-width: 500px) {
+    .ingredientsGroup {
+        width: 25vw;
+
+    }
+
+}
