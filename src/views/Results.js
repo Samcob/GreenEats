@@ -4,8 +4,10 @@ import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import SearchBar from "../components/searchBar";
 import axios from "axios";
+
 import SmallResultCard from "../components/smallResultCard";
 import SearchToBegin from "../styles/Images/searchToBegin.jpg";
+
 
 import "../styles/results.css"
 
@@ -62,6 +64,7 @@ class Results extends Component {
         var arr = []
         let imgURL = "https://spoonacular.com/recipeImages/"
         for (i = 0; i < this.state.results.length; i++) {
+
             arr.push(<SmallResultCard key={i} recipeTitle={this.state.results[i].title} recipeImage={imgURL + this.state.results[i].id + "-240x150.jpg"}
                 ecoScore="5/5" time={this.state.results[i].readyInMinutes + " Minutes"} price="$$" id={this.state.results[i].id}
                 description="This omelette is so yummy, I make it all the time! It's loaded with healthy veggies." />)
@@ -72,8 +75,11 @@ class Results extends Component {
     render() {
 
         return (
-            <div className="results">
-                <div className="searchbar">
+
+            <div class="results">
+                <div class="searchbar">
+                    <p className="label">Search for food or paste recipe link</p>
+
                     <SearchBar />
                 </div>
                 <div className="filters">
@@ -93,6 +99,7 @@ class Results extends Component {
                 {this.newSearch()}
 
                 <div className="resultList">
+
                     {this.createList()}
                 </div>
 

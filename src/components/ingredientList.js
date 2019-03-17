@@ -53,12 +53,11 @@ class IngredientList extends Component {
         // let modalClose = () => this.setState({ modalShow: false });
 
         return (
+          
             < div className="ingredients" >
                 < ListGroup variant="flush" >
                     {this.createList()}
                 </ListGroup >
-
-
 
                 {/*  <ListGroup.Item variant="danger" action
                         onClick={() => this.setState({ modalShow: true })}

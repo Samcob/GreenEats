@@ -1,7 +1,38 @@
 .headerImage{
-    width: 100%;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     overflow: hidden;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.intro {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border-style: solid; */
+    align-items: center;
+    background-image: url("./Images/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+
+}
+
+.recipeTitle {
+    
+    /* border-style: solid; */
+    width: 95%;
+    
+    font-size: 24pt;
+    color: #403934;
+    text-align: center;
+    /* margin-bottom: 20px; */
+   
+
+    
 }
 
 .title{
@@ -10,25 +41,89 @@
 }
 
 .recipeContent {
-    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    /* border-style: solid; */
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* align-content: stretch; */
+    padding: 0px;  
+    padding-top: 0px;  
+
 }
 
-.description{
-    margin: 10px 10px 10px 10px;
-}
+/* .description{
+    border-style:
+
+} */
 
 .recipeInfo{
-    border-top: solid;
-    border-bottom: solid;
-    border-color: #2D8B50;
+    /* border-top: solid;
+    border-bottom: solid; */
+    /* border-style:solid; */
+    /* border-color: #2D8B50; */
+    background-color: #403934;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
 }
 
 .footer{
     height: 100px; 
 }
 
-.recipeTitle {
-    margin: 10px 0 10px 0;
+
+
+.ingredients {
+    border-style: solid;
+}
+
+@media (min-width: 500px) {
+    .headerImage {
+        width: 150px;
+        height: 150px;
+    }
+
+    .recipeTitle {
+    
+        width: 50%;
+        /* min-width: 400px; */
+        font-size: 20pt;
+        text-align: left;
+    }
+
+    .recipeInfo {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 700px) {
+   
+
+    .headerImage {
+        width: 200px;
+        height: 200px;
+    }
+
+    .recipeTitle {
+    
+        width: 50%;
+        /* min-width: 400px; */
+        font-size: 30pt;
+        
+
+    }
+
+    .recipeContent {
+        padding: 50px;
+        padding-top: 0px; 
+    }
+ 
 }
