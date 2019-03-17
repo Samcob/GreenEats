@@ -57,7 +57,8 @@ class DirectionsList extends Component {
     render() {
         return (
 
-            <div className="directions" >
+            <div className="directionsGroup" >
+                <h5 className="title">Directions</h5>
                 < ListGroup variant="flush" >
                     {this.createList()}
                 </ListGroup >
