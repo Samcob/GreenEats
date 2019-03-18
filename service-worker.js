@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/GreenEats/precache-manifest.c1dc333062626118950b1f18f91a7dae.js"
+  "/GreenEats/precache-manifest.f9653f12eba9c35c9348f46dc31c118c.js"
 );
 
 workbox.clientsClaim();
