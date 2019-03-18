@@ -68,15 +68,15 @@ class SmallResultCard extends Component {
     convert(totalCarbon) {
         var temp = (totalCarbon / this.range) * 100
         if (temp <= 20) {
-            return "5/5";
+            return <div className="green">&#x2b24; &#x2b24; &#x2b24;  &#x2b24;  &#x2b24;</div>
         } else if (temp > 20 && temp <= 40) {
-            return "4/5";
+            return <div className="green">&#x2b24; &#x2b24; &#x2b24;  &#x2b24;  &#x25EF;</div>
         } else if (temp > 40 && temp <= 60) {
-            return "3/5";
+            return <div className="green">&#x2b24; &#x2b24; &#x2b24;  &#x25EF; &#x25EF;</div>
         } else if (temp > 60 && temp <= 80) {
-            return "2/5";
+            return <div className="green">&#x2b24; &#x2b24; &#x25EF;  &#x25EF;  &#x25EF;</div>
         } else if (temp > 80 && temp <= 100) {
-            return "1/5";
+            return <div className="green">&#x2b24; &#x25EF; &#x25EF;  &#x25EF;  &#x25EF;</div>
         }
     }
 
@@ -100,7 +100,6 @@ class SmallResultCard extends Component {
 
                     <div className="stats">
                         <div className="stat"><strong>EcoScore | </strong>{this.ecoScore}</div>
-
                         <div className="stat"><strong>Price | </strong>{this.props.price}</div>
                         <div className="stat"><strong>Time | </strong>{this.props.time}</div>
                     </div>

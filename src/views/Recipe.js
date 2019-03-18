@@ -26,13 +26,13 @@ class Recipe extends Component {
 
                 <div className="recipeInfo">
 
-                    <div className="ecoScore"><strong>EcoScore: </strong> {this.props.location.ecoScore}</div>
+                    <div className="ecoScore"><strong>EcoScore| </strong> {this.props.location.ecoScore}</div>
 
-                    <div className="price"><strong>Price: </strong>{this.props.location.state.price}</div>
+                    <div className="price"><strong>Price| </strong>{this.props.location.state.price}</div>
 
-                    <div className="time"><strong>Time: </strong>{this.props.location.state.time}</div>
+                    <div className="time"><strong>Time| </strong>{this.props.location.state.time}</div>
 
-                    <div className="calories"><strong>Calories: </strong> 200 <i>(per serving)</i></div>
+                    <div className="calories"><strong>Calories| </strong> 200 <i>(per serving)</i></div>
 
                 </div>
 
