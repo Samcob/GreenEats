@@ -186,6 +186,12 @@
         "g CO2": 285.4
     },
     {
+        "Food": "CHICKEN",
+        "Category": "Meat",
+        "Price": 0.37,
+        "g CO2": 285.4
+    },
+    {
         "Food": "TURKEY",
         "Category": "Meat",
         "Price": 39.9,
@@ -210,7 +216,19 @@
         "g CO2": 906.3
     },
     {
+        "Food": "BACON",
+        "Category": "Meat",
+        "Price": 84.6,
+        "g CO2": 906.3
+    },
+    {
         "Food": "BEEF",
+        "Category": "Meat",
+        "Price": 63.28,
+        "g CO2": 978.4
+    },
+    {
+        "Food": "STEAK",
         "Category": "Meat",
         "Price": 63.28,
         "g CO2": 978.4

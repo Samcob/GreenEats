@@ -58,7 +58,6 @@ class EcoScoreCalculator extends Component {
 
     convert(totalCarbon) {
         var temp = (totalCarbon / this.range) * 100
-        console.log(temp)
         if (temp <= 20) {
             return "5/5";
         } else if (temp > 20 && temp <= 40) {
@@ -80,7 +79,6 @@ class EcoScoreCalculator extends Component {
         }
         var string = this.convert(this.totalCarbon)
         return string;
-
 
     }
 }

@@ -33,6 +33,25 @@ class Results extends Component {
         return true;
     }
 
+    // componentDidMount() {
+    //     let number = "number=15"
+    //     let type = "&type=main+course"
+    //     let call = "/recipes/search?"
+    //     let query = "&query=" + this.props.location.state.searchPhrase
+
+    //     axios.get(this.apiURL + call + number + type + query, {
+    //         headers: {
+    //             "X-RapidAPI-Key": this.apiKey
+    //         }
+    //     })
+    //         .then(response => {
+    //             this.setState({ results: response.data.results })
+    //         })
+    //         .catch(function (error) {
+    //             console.log(error)
+    //         })
+    // }
+
     newSearch() {
         if (this.isEmpty(this.props.location.state) === true && this.isEmpty(this.state.results) === true) {
             return <img className="searchPrompt" src={SearchToBegin} alt="search to begin" />
@@ -66,9 +85,9 @@ class Results extends Component {
         var arr = []
         let imgURL = "https://spoonacular.com/recipeImages/"
         for (i = 0; i < this.state.results.length; i++) {
-            var ecoScore = <EcoScoreCalculator id={this.state.results[i].id} />
+
             arr.push(<SmallResultCard key={i} recipeTitle={this.state.results[i].title} recipeImage={imgURL + this.state.results[i].id + "-240x150.jpg"}
-                ecoScore={ecoScore} time={this.state.results[i].readyInMinutes + " Minutes"} price="$$" id={this.state.results[i].id} />)
+                time={this.state.results[i].readyInMinutes + " Minutes"} price="$$" id={this.state.results[i].id} />)
         }
         return arr;
     }

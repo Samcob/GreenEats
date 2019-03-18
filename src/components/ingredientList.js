@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import ListGroup from "react-bootstrap/ListGroup";
-import alertIcon from "../styles/Images/alertIcon.png";
+// import alertIcon from "../styles/Images/alertIcon.png";
 import axios from "axios";
-
 import Popup from "../components/popup.js";
+import data from "../data/emissionsData.json";
 
 import "../styles/ingredientList.css";
 
@@ -20,9 +20,7 @@ class IngredientList extends Component {
 
     apiKey = "95kefuyGhMmsh5fvZ5iUw5IpoleOp1fj6ygjsn2aoaYqg3AJvh"
 
-    hasRun = false
-
-    getIngredients() {
+    componentDidMount() {
 
         axios.get(this.apiURL + this.props.id + "/information", {
             headers: {
@@ -31,26 +29,42 @@ class IngredientList extends Component {
         })
             .then(response => {
                 this.setState({ ingredientsList: response.data.extendedIngredients })
-                this.hasRun = true
+                // this.hasRun = true
             })
             .catch(function (error) {
                 console.log(error)
             })
     }
 
-    createList() {
-        if (this.hasRun === false) {
-            this.getIngredients()
+    compare(ingredient) {
+
+        for (var k = 0; k < data.length; k++) {
+            if (ingredient.includes(data[k]["Food"])) {
+                if (data[k]["g CO2"] > 200) {
+                    return false
+                }
+            }
         }
+
+        return true;
+    }
+
+    createList() {
         let arr = []
         for (var i = 0; i < this.state.ingredientsList.length; i++) {
-            arr.push(<ListGroup.Item key={i}>{this.state.ingredientsList[i]["originalString"]}</ListGroup.Item>)
+            var isSustainable = this.compare(this.state.ingredientsList[i]["name"].toUpperCase())
+            if (isSustainable === true) {
+                arr.push(<ListGroup.Item key={i}>{this.state.ingredientsList[i]["originalString"]}</ListGroup.Item>)
+            } else {
+                arr.push(<ListGroup.Item key={i} variant="danger" action onClick={() => this.setState({ modalShow: true })}>{this.state.ingredientsList[i]["originalString"]}</ListGroup.Item>)
+            }
+
         }
         return arr
     }
 
     render() {
-        // let modalClose = () => this.setState({ modalShow: false });
+        let modalClose = () => this.setState({ modalShow: false });
 
         return (
 
@@ -60,17 +74,17 @@ class IngredientList extends Component {
                     {this.createList()}
                 </ListGroup >
 
-                {/*  <ListGroup.Item variant="danger" action
+                {/* <ListGroup.Item variant="danger" action
                         onClick={() => this.setState({ modalShow: true })}
                     >
                         1lb of Lamb
                     <img src={alertIcon} alt="alert"></img>
-                    </ListGroup.Item>
+                    </ListGroup.Item> */}
 
-                {/* <Popup
+                <Popup
                     show={this.state.modalShow}
                     onHide={modalClose}
-                /> */}
+                />
 
             </div >
         );
