@@ -31,7 +31,7 @@ class App extends Component {
 
             {/*These two components being called in router means that they will always be on all of the pages.  Makes things a lot easier.*/}
 
-            <Route path="/" component={Home} />
+            <Route path="/" component={Home} exact />
             <Route path="/ecoScore" component={EcoScore} />
             <Route path="/ecoTips" component={EcoTips} />
             <Route path="/issues" component={Issues} />
