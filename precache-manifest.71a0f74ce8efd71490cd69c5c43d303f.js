@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2201c010222f8127c85a",
+    "revision": "6946b2e20ae3595e6ba3",
     "url": "/GreenEats/static/css/main.add7fc05.chunk.css"
   },
   {
-    "revision": "2201c010222f8127c85a",
-    "url": "/GreenEats/static/js/main.2201c010.chunk.js"
+    "revision": "6946b2e20ae3595e6ba3",
+    "url": "/GreenEats/static/js/main.6946b2e2.chunk.js"
   },
   {
     "revision": "9eaf084bd6de36bf9b1c",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/GreenEats/static/js/2.be423af9.chunk.js"
   },
   {
-    "revision": "2ea26319e0f303309ea9484dcdc3a6c3",
-    "url": "/GreenEats/static/media/PhotoBackgroundVertical.2ea26319.jpg"
-  },
-  {
     "revision": "ca732b115dc8a7bf0c5b9543dadd13b5",
     "url": "/GreenEats/static/media/PhotoBackgroundHorizontal.ca732b11.jpg"
+  },
+  {
+    "revision": "2ea26319e0f303309ea9484dcdc3a6c3",
+    "url": "/GreenEats/static/media/PhotoBackgroundVertical.2ea26319.jpg"
   },
   {
     "revision": "acfd40c321e66d24463cf333c5a50c96",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/GreenEats/static/media/back.c688b3d5.jpg"
   },
   {
-    "revision": "1b05f3e6a0f4fc804d8117d4bec11e15",
+    "revision": "fcc4f65f205d219abecee6e994007a85",
     "url": "/GreenEats/index.html"
   }
 ];
