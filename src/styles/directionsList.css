@@ -1,13 +1,19 @@
-.list-group-item > h2{
-    display: inline-block;
+.number {
+    /* display: inline-block; */
     margin-right: 20px;
+    /* width: 100px; */
+    /* float: left; */
+ 
 }
 
 /* Need to figure out how to make text align to right side of direction number. */
-.list-group-item > p{
-    display: inline-block;
-    word-wrap: break-word;
+
+.list-group-flush > .list-group-item{
+    display: flex;
+    
 }
+
+
 
 .directionsGroup {
     /* border-style: solid; */
@@ -18,5 +24,7 @@
     .directionsGroup {
         width: 50vw;
     }
+
+
 
 }

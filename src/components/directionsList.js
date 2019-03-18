@@ -46,8 +46,9 @@ class DirectionsList extends Component {
         let arr = []
         for (var i = 0; i < this.state.directionsList.length; i++) {
             arr.push(<ListGroup.Item key={i}>
-                <h2>{i + 1}</h2>
-                {this.state.directionsList[i]["step"]}
+                <h2 className="number">{i + 1}</h2>
+
+                <p>{this.state.directionsList[i]["step"]}</p>
             </ListGroup.Item>)
         }
         return arr
