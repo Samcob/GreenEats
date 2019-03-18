@@ -4,6 +4,7 @@ import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import SearchBar from "../components/searchBar";
 import axios from "axios";
+import EcoScoreCalculator from "../providers/ecoScoreCalculator";
 
 import SmallResultCard from "../components/smallResultCard";
 import SearchToBegin from "../styles/Images/searchToBegin.jpg";
@@ -40,10 +41,11 @@ class Results extends Component {
 
     recipeSearch() {
         let number = "number=15"
+        let type = "&type=main+course"
         let call = "/recipes/search?"
-        let query = "query=" + this.props.location.state.searchPhrase
+        let query = "&query=" + this.props.location.state.searchPhrase
 
-        axios.get(this.apiURL + call + number + "&" + query, {
+        axios.get(this.apiURL + call + number + type + query, {
             headers: {
                 "X-RapidAPI-Key": this.apiKey
             }
@@ -64,10 +66,8 @@ class Results extends Component {
         var arr = []
         let imgURL = "https://spoonacular.com/recipeImages/"
         for (i = 0; i < this.state.results.length; i++) {
-
             arr.push(<SmallResultCard key={i} recipeTitle={this.state.results[i].title} recipeImage={imgURL + this.state.results[i].id + "-240x150.jpg"}
-                ecoScore="5/5" time={this.state.results[i].readyInMinutes + " Minutes"} price="$$" id={this.state.results[i].id}
-                description="This omelette is so yummy, I make it all the time! It's loaded with healthy veggies." />)
+                time={this.state.results[i].readyInMinutes + " Minutes"} price="$$" id={this.state.results[i].id} />)
         }
         return arr;
     }
@@ -99,10 +99,8 @@ class Results extends Component {
                 {this.newSearch()}
 
                 <div className="resultList">
-
                     {this.createList()}
                 </div>
-
             </div>
 
 

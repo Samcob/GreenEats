@@ -27,11 +27,11 @@ class Popup extends Component {
             >
                 <Modal.Header closeButton>
                     <Modal.Title id="contained-modal-title-vcenter">
-                        EcoScore Substitutes Found!
+                        Sustainable Substitutes Found!
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <h3 className="mb-3">Replace {this.state.ingredient} with:</h3>
+                    <h3 className="mb-3">Replace with:</h3>
 
                     <ListGroup variant="flush">
                         {this.state.listItems.length > 0 &&

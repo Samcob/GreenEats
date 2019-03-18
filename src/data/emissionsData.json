@@ -1,0 +1,614 @@
+[
+    {
+        "Food": "EGGS",
+        "Category": "Dairy",
+        "Price": 58.7,
+        "g CO2": 118.9
+    },
+    {
+        "Food": "MILK ",
+        "Category": "Dairy",
+        "Price": 12.38,
+        "g CO2": 247.6
+    },
+    {
+        "Food": "CHEESE",
+        "Category": "Dairy",
+        "Price": 132.4,
+        "g CO2": 250.2
+    },
+    {
+        "Food": "RAISIN GRAPES",
+        "Category": "Fruit",
+        "Price": 241,
+        "g CO2": 16
+    },
+    {
+        "Food": "GRAPEFRUIT",
+        "Category": "Fruit",
+        "Price": 3.83,
+        "g CO2": 26.6
+    },
+    {
+        "Food": "ORANGES",
+        "Category": "Fruit",
+        "Price": 6.41,
+        "g CO2": 39.8
+    },
+    {
+        "Food": "FIGS",
+        "Category": "Fruit",
+        "Price": 250,
+        "g CO2": 58.3
+    },
+    {
+        "Food": "PEARS",
+        "Category": "Fruit",
+        "Price": 276,
+        "g CO2": 64.3
+    },
+    {
+        "Food": "PINEAPPLES",
+        "Category": "Fruit",
+        "Price": 283,
+        "g CO2": 66
+    },
+    {
+        "Food": "WATERMELONS",
+        "Category": "Fruit",
+        "Price": 7.59,
+        "g CO2": 66.5
+    },
+    {
+        "Food": "PLUMS",
+        "Category": "Fruit",
+        "Price": 312,
+        "g CO2": 72.7
+    },
+    {
+        "Food": "APRICOTS",
+        "Category": "Fruit",
+        "Price": 332,
+        "g CO2": 77.4
+    },
+    {
+        "Food": "CANTALOUPE",
+        "Category": "Fruit",
+        "Price": 17.7,
+        "g CO2": 77.6
+    },
+    {
+        "Food": "HONEYDEW",
+        "Category": "Fruit",
+        "Price": 18.9,
+        "g CO2": 82.9
+    },
+    {
+        "Food": "NECTARINES",
+        "Category": "Fruit",
+        "Price": 375,
+        "g CO2": 87.4
+    },
+    {
+        "Food": "TABLE GRAPES",
+        "Category": "Fruit",
+        "Price": 447,
+        "g CO2": 104.2
+    },
+    {
+        "Food": "APPLES",
+        "Category": "Fruit",
+        "Price": 22.9,
+        "g CO2": 106.7
+    },
+    {
+        "Food": "CRANBERRIES",
+        "Category": "Fruit",
+        "Price": 65.9,
+        "g CO2": 120.7
+    },
+    {
+        "Food": "KIWIS",
+        "Category": "Fruit",
+        "Price": 518,
+        "g CO2": 120.7
+    },
+    {
+        "Food": "PAPAYAS",
+        "Category": "Fruit",
+        "Price": 0.49,
+        "g CO2": 228
+    },
+    {
+        "Food": "RASPBERRIES",
+        "Category": "Fruit",
+        "Price": 0.49,
+        "g CO2": 228
+    },
+    {
+        "Food": "SWEET CHERRIES",
+        "Category": "Fruit",
+        "Price": 1250,
+        "g CO2": 291.4
+    },
+    {
+        "Food": "STRAWBERRIES",
+        "Category": "Fruit",
+        "Price": 65.7,
+        "g CO2": 306.3
+    },
+    {
+        "Food": "BLUEBERRIES",
+        "Category": "Fruit",
+        "Price": 0.83,
+        "g CO2": 388.3
+    },
+    {
+        "Food": "BANANAS",
+        "Category": "Fruit",
+        "Price": 0.88,
+        "g CO2": 738.4
+    },
+    {
+        "Food": "WHEAT FLOUR",
+        "Category": "Grain",
+        "Price": 11.89,
+        "g CO2": 21
+    },
+    {
+        "Food": "WHEAT",
+        "Category": "Grain",
+        "Price": 3.45,
+        "g CO2": 21.6
+    },
+    {
+        "Food": "BARLEY",
+        "Category": "Grain",
+        "Price": 2.4,
+        "g CO2": 31.3
+    },
+    {
+        "Food": "OATS",
+        "Category": "Grain",
+        "Price": 1.6,
+        "g CO2": 31.3
+    },
+    {
+        "Food": "RICE",
+        "Category": "Grain",
+        "Price": 18.55,
+        "g CO2": 92.9
+    },
+    {
+        "Food": "BROILER CHICKEN",
+        "Category": "Meat",
+        "Price": 0.37,
+        "g CO2": 285.4
+    },
+    {
+        "Food": "CHICKEN",
+        "Category": "Meat",
+        "Price": 0.37,
+        "g CO2": 285.4
+    },
+    {
+        "Food": "TURKEY",
+        "Category": "Meat",
+        "Price": 39.9,
+        "g CO2": 310.9
+    },
+    {
+        "Food": "FISH",
+        "Category": "Meat",
+        "Price": 0.71,
+        "g CO2": 413.8
+    },
+    {
+        "Food": "PIG",
+        "Category": "Meat",
+        "Price": 52.9,
+        "g CO2": 824.5
+    },
+    {
+        "Food": "PORK",
+        "Category": "Meat",
+        "Price": 84.6,
+        "g CO2": 906.3
+    },
+    {
+        "Food": "BACON",
+        "Category": "Meat",
+        "Price": 84.6,
+        "g CO2": 906.3
+    },
+    {
+        "Food": "BEEF",
+        "Category": "Meat",
+        "Price": 63.28,
+        "g CO2": 978.4
+    },
+    {
+        "Food": "STEAK",
+        "Category": "Meat",
+        "Price": 63.28,
+        "g CO2": 978.4
+    },
+    {
+        "Food": "LAMB",
+        "Category": "Meat",
+        "Price": 90.3,
+        "g CO2": 1407.4
+    },
+    {
+        "Food": "COCOA BEANS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 1641,
+        "g CO2": 7.3
+    },
+    {
+        "Food": "FLAXSEED",
+        "Category": "Nut/Seed/Legume",
+        "Price": 5.75,
+        "g CO2": 17.8
+    },
+    {
+        "Food": "SOYBEANS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 6.5,
+        "g CO2": 23.4
+    },
+    {
+        "Food": "PEANUTS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 0.26,
+        "g CO2": 72.9
+    },
+    {
+        "Food": "DRY BEANS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 17.7,
+        "g CO2": 86.2
+    },
+    {
+        "Food": "HAZELNUTS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 898,
+        "g CO2": 96.2
+    },
+    {
+        "Food": "CHICKPEAS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 1.19,
+        "g CO2": 117.95
+    },
+    {
+        "Food": "WALNUTS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 1310,
+        "g CO2": 156
+    },
+    {
+        "Food": "LIMA BEANS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 33,
+        "g CO2": 160.7
+    },
+    {
+        "Food": "PECANS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 0.77,
+        "g CO2": 165.3
+    },
+    {
+        "Food": "ALMONDS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 1.55,
+        "g CO2": 166.1
+    },
+    {
+        "Food": "MACADAMIA NUTS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 0.75,
+        "g CO2": 221.4
+    },
+    {
+        "Food": "PISTACHIOS",
+        "Category": "Nut/Seed/Legume",
+        "Price": 1.13,
+        "g CO2": 242.2
+    },
+    {
+        "Food": "LARD",
+        "Category": "Oil",
+        "Price": 23.39,
+        "g CO2": 8
+    },
+    {
+        "Food": "SUNFLOWER OIL",
+        "Category": "Oil",
+        "Price": 11.3,
+        "g CO2": 9.1
+    },
+    {
+        "Food": "CORN OIL",
+        "Category": "Oil",
+        "Price": 25.67,
+        "g CO2": 12.2
+    },
+    {
+        "Food": "SUNFLOWER OIL",
+        "Category": "Oil",
+        "Price": 497,
+        "g CO2": 14.5
+    },
+    {
+        "Food": "SOYBEAN OIL",
+        "Category": "Oil",
+        "Price": 25.84,
+        "g CO2": 15.4
+    },
+    {
+        "Food": "PALM OIL",
+        "Category": "Oil",
+        "Price": 27.49,
+        "g CO2": 17.6
+    },
+    {
+        "Food": "COCONUT OIL",
+        "Category": "Oil",
+        "Price": 38.59,
+        "g CO2": 25
+    },
+    {
+        "Food": "BUTTER",
+        "Category": "Oil",
+        "Price": 107.1,
+        "g CO2": 79.5
+    },
+    {
+        "Food": "OLIVE OIL",
+        "Category": "Oil",
+        "Price": 2711,
+        "g CO2": 98.8
+    },
+    {
+        "Food": "BLACKSTRAP MOLASSES",
+        "Category": "Other",
+        "Price": 58.16,
+        "g CO2": 2
+    },
+    {
+        "Food": "TOFU",
+        "Category": "Other",
+        "Price": 10.27,
+        "g CO2": 2.4
+    },
+    {
+        "Food": "BLACK PEPPER",
+        "Category": "Other",
+        "Price": 206.9,
+        "g CO2": 2.5
+    },
+    {
+        "Food": "WHITE PEPPER",
+        "Category": "Other",
+        "Price": 206.9,
+        "g CO2": 2.5
+    },
+    {
+        "Food": "RAW SUGAR",
+        "Category": "Other",
+        "Price": 21.96,
+        "g CO2": 2.9
+    },
+    {
+        "Food": "HOPS",
+        "Category": "Other",
+        "Price": 1.58,
+        "g CO2": 7.7
+    },
+    {
+        "Food": "TOBACCO",
+        "Category": "Other",
+        "Price": 181.3,
+        "g CO2": 8.1
+    },
+    {
+        "Food": "OLIVES",
+        "Category": "Other",
+        "Price": 642,
+        "g CO2": 16
+    },
+    {
+        "Food": "CHOCOLATE LIQUOR ",
+        "Category": "Other",
+        "Price": 2305,
+        "g CO2": 30.6
+    },
+    {
+        "Food": "HONEY",
+        "Category": "Other",
+        "Price": 75.2,
+        "g CO2": 46.3
+    },
+    {
+        "Food": "COCOA BUTTER",
+        "Category": "Other",
+        "Price": 4021,
+        "g CO2": 47.3
+    },
+    {
+        "Food": "WHOLESALE COFFEE",
+        "Category": "Other",
+        "Price": 0.2,
+        "g CO2": 47.7
+    },
+    {
+        "Food": "HAWAIIAN COFFEE",
+        "Category": "Other",
+        "Price": 3.25,
+        "g CO2": 48.5
+    },
+    {
+        "Food": "RETAIL COFFEE",
+        "Category": "Other",
+        "Price": 4.1,
+        "g CO2": 61.2
+    },
+    {
+        "Food": "WINE GRAPES",
+        "Category": "Other",
+        "Price": 598,
+        "g CO2": 133
+    },
+    {
+        "Food": "SPEARMINT",
+        "Category": "Other",
+        "Price": 12,
+        "g CO2": 259.3
+    },
+    {
+        "Food": "PEPPERMINT",
+        "Category": "Other",
+        "Price": 13.2,
+        "g CO2": 285.3
+    },
+    {
+        "Food": "POTATOES",
+        "Category": "Vegetable",
+        "Price": 5.68,
+        "g CO2": 19.6
+    },
+    {
+        "Food": "CABBAGE",
+        "Category": "Vegetable",
+        "Price": 10.4,
+        "g CO2": 27.7
+    },
+    {
+        "Food": "ONIONS",
+        "Category": "Vegetable",
+        "Price": 12.6,
+        "g CO2": 33.5
+    },
+    {
+        "Food": "CARROTS",
+        "Category": "Vegetable",
+        "Price": 13.1,
+        "g CO2": 34.9
+    },
+    {
+        "Food": "CELERY",
+        "Category": "Vegetable",
+        "Price": 15.1,
+        "g CO2": 40.2
+    },
+    {
+        "Food": "GARLIC",
+        "Category": "Vegetable",
+        "Price": 47.1,
+        "g CO2": 44.2
+    },
+    {
+        "Food": "CUCUMBERS",
+        "Category": "Vegetable",
+        "Price": 16.9,
+        "g CO2": 45
+    },
+    {
+        "Food": "LETTUCE",
+        "Category": "Vegetable",
+        "Price": 17.3,
+        "g CO2": 46
+    },
+    {
+        "Food": "SWEET CORN",
+        "Category": "Vegetable",
+        "Price": 17.6,
+        "g CO2": 46.8
+    },
+    {
+        "Food": "SWEET POTATOES",
+        "Category": "Vegetable",
+        "Price": 15.8,
+        "g CO2": 54.4
+    },
+    {
+        "Food": "EGGPLANT",
+        "Category": "Vegetable",
+        "Price": 23.8,
+        "g CO2": 63.3
+    },
+    {
+        "Food": "AVOCADOS",
+        "Category": "Vegetable",
+        "Price": 1360,
+        "g CO2": 67.9
+    },
+    {
+        "Food": "BROCCOLI",
+        "Category": "Vegetable",
+        "Price": 29.1,
+        "g CO2": 77.5
+    },
+    {
+        "Food": "BELL PEPPERS",
+        "Category": "Vegetable",
+        "Price": 30,
+        "g CO2": 79.8
+    },
+    {
+        "Food": "SPINACH",
+        "Category": "Vegetable",
+        "Price": 30.8,
+        "g CO2": 82
+    },
+    {
+        "Food": "CAULIFLOWER",
+        "Category": "Vegetable",
+        "Price": 31.2,
+        "g CO2": 83
+    },
+    {
+        "Food": "TOMATOES",
+        "Category": "Vegetable",
+        "Price": 33,
+        "g CO2": 87.8
+    },
+    {
+        "Food": "SNAP PEAS",
+        "Category": "Vegetable",
+        "Price": 41.3,
+        "g CO2": 109.9
+    },
+    {
+        "Food": "BRUSSEL SPROUTS ",
+        "Category": "Vegetable",
+        "Price": 42.5,
+        "g CO2": 113.1
+    },
+    {
+        "Food": "PEACHES",
+        "Category": "Vegetable",
+        "Price": 24.6,
+        "g CO2": 114.7
+    },
+    {
+        "Food": "CORN",
+        "Category": "Vegetable",
+        "Price": 2.6,
+        "g CO2": 145.8
+    },
+    {
+        "Food": "ARTICHOKES",
+        "Category": "Vegetable",
+        "Price": 78.2,
+        "g CO2": 208.1
+    },
+    {
+        "Food": "ASPARAGUS",
+        "Category": "Vegetable",
+        "Price": 111,
+        "g CO2": 295.4
+    }
+]

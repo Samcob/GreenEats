@@ -58,6 +58,14 @@
 
 } */
 
+.ecoScore {
+    display: flex;
+}
+
+.ecoScore > .green {
+    color: white;
+}
+
 .recipeInfo{
     /* border-top: solid;
     border-bottom: solid; */

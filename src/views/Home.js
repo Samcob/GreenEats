@@ -55,7 +55,7 @@ class Home extends Component {
                             <Col className="columns" sm={12} md={6} lg={4}>
                                 <h5 class="pickTitles">Breakfast</h5>
                                 <LargeResultCard recipeTitle="Veggie Omelette" recipeImage="./Images/veggieOm.jpg"
-                                    ecoScore="5/5" time="30 Minutes" price="$$"
+                                    ecoScore=" 5/5 " time="30 Minutes" price="$$"
                                     description="This omelette is so yummy, I make it all the time! It's loaded with healthy veggies." />
                             </Col>
                             <Col className="columns" sm={12} md={6} lg={4}>
