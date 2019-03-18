@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "750c795bfdcf6a0f5c83",
+    "revision": "f724c125b8e9464657d3",
     "url": "/GreenEats/static/css/main.add7fc05.chunk.css"
   },
   {
-    "revision": "750c795bfdcf6a0f5c83",
-    "url": "/GreenEats/static/js/main.750c795b.chunk.js"
+    "revision": "f724c125b8e9464657d3",
+    "url": "/GreenEats/static/js/main.f724c125.chunk.js"
   },
   {
     "revision": "9eaf084bd6de36bf9b1c",
     "url": "/GreenEats/static/js/runtime~main.9eaf084b.js"
   },
   {
-    "revision": "6c887737ba4a4d3ec3ed",
+    "revision": "be423af9e3c11828de92",
     "url": "/GreenEats/static/css/2.1f4dee36.chunk.css"
   },
   {
-    "revision": "6c887737ba4a4d3ec3ed",
-    "url": "/GreenEats/static/js/2.6c887737.chunk.js"
+    "revision": "be423af9e3c11828de92",
+    "url": "/GreenEats/static/js/2.be423af9.chunk.js"
   },
   {
     "revision": "2ea26319e0f303309ea9484dcdc3a6c3",
@@ -40,6 +40,26 @@ self.__precacheManifest = [
     "url": "/GreenEats/static/media/stirfry.6c269ef1.jpg"
   },
   {
+    "revision": "e8ad8308a517fdc612df80e1844516b4",
+    "url": "/GreenEats/static/media/EcoScoreHeader.e8ad8308.png"
+  },
+  {
+    "revision": "f8cb2e2b94d1dbfeb6550958762c30a8",
+    "url": "/GreenEats/static/media/adding.f8cb2e2b.png"
+  },
+  {
+    "revision": "db32eb07316164ff8f0a31f103a48833",
+    "url": "/GreenEats/static/media/percentile.db32eb07.png"
+  },
+  {
+    "revision": "f53f218bafca95df71b4a37657143772",
+    "url": "/GreenEats/static/media/percentile2.f53f218b.png"
+  },
+  {
+    "revision": "e5c736b0a4f6e354ddff80fdedb55fb8",
+    "url": "/GreenEats/static/media/ecoScore.e5c736b0.png"
+  },
+  {
     "revision": "74e9990abf29213673e5dfe00795809b",
     "url": "/GreenEats/static/media/searchToBegin.74e9990a.jpg"
   },
@@ -48,7 +68,7 @@ self.__precacheManifest = [
     "url": "/GreenEats/static/media/back.c688b3d5.jpg"
   },
   {
-    "revision": "4077a2990041fa9df33be51ba00b02c5",
+    "revision": "abbb5eb73f7342b912da06d5e61f7ce1",
     "url": "/GreenEats/index.html"
   }
 ];
