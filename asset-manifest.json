@@ -1,17 +1,18 @@
 {
-  "main.css": "/GreenEats/static/css/main.6f9802a0.chunk.css",
-  "main.js": "/GreenEats/static/js/main.30874694.chunk.js",
-  "main.js.map": "/GreenEats/static/js/main.30874694.chunk.js.map",
+  "main.css": "/GreenEats/static/css/main.add7fc05.chunk.css",
+  "main.js": "/GreenEats/static/js/main.1ec203a7.chunk.js",
+  "main.js.map": "/GreenEats/static/js/main.1ec203a7.chunk.js.map",
   "runtime~main.js": "/GreenEats/static/js/runtime~main.9eaf084b.js",
   "runtime~main.js.map": "/GreenEats/static/js/runtime~main.9eaf084b.js.map",
   "static/css/2.1f4dee36.chunk.css": "/GreenEats/static/css/2.1f4dee36.chunk.css",
-  "static/js/2.2607dec3.chunk.js": "/GreenEats/static/js/2.2607dec3.chunk.js",
-  "static/js/2.2607dec3.chunk.js.map": "/GreenEats/static/js/2.2607dec3.chunk.js.map",
+  "static/js/2.e33ab105.chunk.js": "/GreenEats/static/js/2.e33ab105.chunk.js",
+  "static/js/2.e33ab105.chunk.js.map": "/GreenEats/static/js/2.e33ab105.chunk.js.map",
   "index.html": "/GreenEats/index.html",
-  "precache-manifest.40b55be39b9e86ff2ace897116926140.js": "/GreenEats/precache-manifest.40b55be39b9e86ff2ace897116926140.js",
+  "precache-manifest.a0fb5d7e39d04c88b69ecac31abac9a9.js": "/GreenEats/precache-manifest.a0fb5d7e39d04c88b69ecac31abac9a9.js",
   "service-worker.js": "/GreenEats/service-worker.js",
   "static/css/2.1f4dee36.chunk.css.map": "/GreenEats/static/css/2.1f4dee36.chunk.css.map",
-  "static/css/main.6f9802a0.chunk.css.map": "/GreenEats/static/css/main.6f9802a0.chunk.css.map",
+  "static/css/main.add7fc05.chunk.css.map": "/GreenEats/static/css/main.add7fc05.chunk.css.map",
   "static/media/home.css": "/GreenEats/static/media/PhotoBackgroundVertical.2ea26319.jpg",
-  "static/media/RecipeHeaderPhoto.jpg": "/GreenEats/static/media/RecipeHeaderPhoto.5efac034.jpg"
+  "static/media/recipe.css": "/GreenEats/static/media/back.c688b3d5.jpg",
+  "static/media/searchToBegin.jpg": "/GreenEats/static/media/searchToBegin.74e9990a.jpg"
 }
