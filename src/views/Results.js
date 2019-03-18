@@ -4,7 +4,6 @@ import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import SearchBar from "../components/searchBar";
 import axios from "axios";
-import EcoScoreCalculator from "../providers/ecoScoreCalculator";
 
 import SmallResultCard from "../components/smallResultCard";
 import SearchToBegin from "../styles/Images/searchToBegin.jpg";
