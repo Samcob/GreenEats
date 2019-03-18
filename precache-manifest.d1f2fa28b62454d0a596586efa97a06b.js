@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f724c125b8e9464657d3",
+    "revision": "389f9621c0dc5afebda4",
     "url": "/GreenEats/static/css/main.add7fc05.chunk.css"
   },
   {
-    "revision": "f724c125b8e9464657d3",
-    "url": "/GreenEats/static/js/main.f724c125.chunk.js"
+    "revision": "389f9621c0dc5afebda4",
+    "url": "/GreenEats/static/js/main.389f9621.chunk.js"
   },
   {
     "revision": "9eaf084bd6de36bf9b1c",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/GreenEats/static/media/back.c688b3d5.jpg"
   },
   {
-    "revision": "abbb5eb73f7342b912da06d5e61f7ce1",
+    "revision": "31a641c1ea98eee0fb3a6997775be795",
     "url": "/GreenEats/index.html"
   }
 ];
