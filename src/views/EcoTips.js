@@ -6,9 +6,9 @@ class EcoScore extends Component {
     render() {
         return (
             <div class="ecoscore">
-                <br></br>
-                <br></br>
-                EcoScore</div>
+                <img src=""></img>
+
+            </div>
         );
     }
 }

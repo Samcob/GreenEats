@@ -2,6 +2,8 @@
     object-fit: cover;
     overflow: hidden;
     height: 200px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 /* .stats{
@@ -16,11 +18,7 @@
     font-weight: Bold;
 }
 
-.card > .card-body > .card-text {
-  
-    
-   
-}
+
 
 
 /* .card > .card-subtitle {

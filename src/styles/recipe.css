@@ -25,10 +25,10 @@
     
     /* border-style: solid; */
     width: 95%;
-    
     font-size: 24pt;
     color: #403934;
     text-align: center;
+    word-wrap: break-word;
     /* margin-bottom: 20px; */
    
 
@@ -90,10 +90,15 @@
         height: 150px;
     }
 
+
+.intro {
+    flex-wrap: nowrap;
+}
+
     .recipeTitle {
     
-        width: 50%;
-        /* min-width: 400px; */
+        width: auto;
+        max-width: 350px;
         font-size: 20pt;
         text-align: left;
     }
@@ -114,10 +119,9 @@
 
     .recipeTitle {
     
-        width: 50%;
-        /* min-width: 400px; */
         font-size: 30pt;
-        
+        max-width: 500px;
+              
 
     }
 
