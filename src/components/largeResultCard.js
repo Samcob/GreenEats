@@ -1,7 +1,6 @@
 // Large Result Card Component
 import React, { Component } from 'react';
 import Card from "react-bootstrap/Card";
-import axios from "axios";
 import { Link } from 'react-router-dom';
 
 import "../styles/largeResultCard.css";
