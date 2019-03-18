@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import axios from "axios";
 
 import "../styles/smallResultCard.css";
 
@@ -9,6 +8,11 @@ class SmallResultCard extends Component {
     state = {
         id: this.props.id
     }
+
+    componentDidMount() {
+        console.log(this.props.ecoScore)
+    }
+
     render() {
         return (
             <div class="smallCard">
