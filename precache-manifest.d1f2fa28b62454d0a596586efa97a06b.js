@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/GreenEats/static/js/2.be423af9.chunk.js"
   },
   {
-    "revision": "2ea26319e0f303309ea9484dcdc3a6c3",
-    "url": "/GreenEats/static/media/PhotoBackgroundVertical.2ea26319.jpg"
-  },
-  {
     "revision": "ca732b115dc8a7bf0c5b9543dadd13b5",
     "url": "/GreenEats/static/media/PhotoBackgroundHorizontal.ca732b11.jpg"
+  },
+  {
+    "revision": "2ea26319e0f303309ea9484dcdc3a6c3",
+    "url": "/GreenEats/static/media/PhotoBackgroundVertical.2ea26319.jpg"
   },
   {
     "revision": "acfd40c321e66d24463cf333c5a50c96",
