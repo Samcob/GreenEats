@@ -21,7 +21,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div>
 
             {/*These two components being called in router means that they will always be on all of the pages.  Makes things a lot easier.*/}
